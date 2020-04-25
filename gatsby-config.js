@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `leivajd.com`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `leivajd.com es el website de José Leiva, un web developer que vive en San José, Costa Rica.`,
     author: `@leivajd`,
   },
   plugins: [
@@ -13,6 +13,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts`,
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
