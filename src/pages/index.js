@@ -8,17 +8,18 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Inicio" />
-
-
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <h3>
+            <h2>
               {node.frontmatter.title}{" "}
               <span>
                 — {node.frontmatter.date}
               </span>
-            </h3>
+            </h2>
+            <div
+              className="article__body"
+              dangerouslySetInnerHTML={{ __html: node.html }}
+            />
           </div>
         ))}
     </Layout>
@@ -27,9 +28,10 @@ export default ({ data }) => {
 export const query = graphql`
   query {
     allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
-      totalCount
       edges {
         node {
+          id
+          html
           frontmatter {
             date(formatString: "DD-MM-YYYY")
             path
