@@ -5,7 +5,7 @@
 body {
   color: #414042;
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 1em;
   line-height: 1.5;
   margin: 4em;
   padding: 0;
@@ -22,7 +22,7 @@ ul {
 }
 
 li {
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
 }
 
 strong {
@@ -55,9 +55,19 @@ a:hover {
 }
 
 h2 {
-  font-size: 1.25em;
-  font-weight: bold;
   margin-top: 1.5em;
   margin-bottom: .5em;
   position: relative;
+}
+
+main {
+  max-width: 80em;
+}
+
+.post {
+  margin-bottom: 6em;
+}
+
+.post p {
+  margin-top: 0;
 }

@@ -4,12 +4,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 export default ({ data }) => {
-  console.log(data)
   return (
     <Layout>
       <SEO title="Inicio" />
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
+          <div className="post" key={node.id}>
             <h2>
               {node.frontmatter.title}{" "}
               <span>
