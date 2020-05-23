@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
 
-import styles from "./work.module.css"
+import styles from "../styles/work.module.css"
 
 const WorkPage = () => (
   <>
