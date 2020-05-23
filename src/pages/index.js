@@ -26,11 +26,9 @@ export default ({ data, pageContext }) => {
   )
 }
 export const query = graphql`
-  query indexPageQuery($skip: Int!, $limit: Int!) {
+  query indexPageQuery {
     allMarkdownRemark(
       sort: {fields: [frontmatter___date], order: DESC}
-      limit: $limit
-      skip: $skip
       ) {
       edges {
         node {
