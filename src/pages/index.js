@@ -3,7 +3,8 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-export default ({ data }) => {
+export default ({ data, pageContext }) => {
+  console.log(pageContext)
   return (
     <Layout>
       <SEO title="Inicio" />
@@ -25,8 +26,10 @@ export default ({ data }) => {
   )
 }
 export const query = graphql`
-  query {
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+  query indexPageQuery {
+    allMarkdownRemark(
+      sort: {fields: [frontmatter___date], order: DESC}
+      ) {
       edges {
         node {
           id
@@ -35,6 +38,9 @@ export const query = graphql`
             date(formatString: "DD-MM-YYYY")
             path
             title
+          }
+          fields {
+            slug
           }
         }
       }
