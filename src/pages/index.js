@@ -8,7 +8,7 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title="Inicio" />
-        {/* {data.allMarkdownRemark.edges.map(({ node }) => (
+        {data.allMarkdownRemark.edges.map(({ node }) => (
           <div className="post" key={node.id}>
             <h2>
               {node.frontmatter.title}{" "}
@@ -21,7 +21,7 @@ export default ({ data, pageContext }) => {
               dangerouslySetInnerHTML={{ __html: node.html }}
             />
           </div>
-        ))} */}
+        ))}
     </Layout>
   )
 }
@@ -38,6 +38,9 @@ export const query = graphql`
             date(formatString: "DD-MM-YYYY")
             path
             title
+          }
+          fields {
+            slug
           }
         }
       }
