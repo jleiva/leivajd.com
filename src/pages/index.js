@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 export default ({ data, pageContext }) => {
-  console.log(pageContext)
   return (
     <Layout>
       <SEO title="Inicio" />
