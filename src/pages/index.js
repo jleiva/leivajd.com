@@ -28,7 +28,9 @@ export default ({ data, pageContext }) => {
 export const query = graphql`
   query indexPageQuery {
     allMarkdownRemark(
-      sort: {fields: [frontmatter___date], order: DESC}
+      sort: {fields: [frontmatter___date], order: DESC}, 
+      limit: 10, 
+      filter: {frontmatter: {isDraft: {ne: true}}}
       ) {
       edges {
         node {
