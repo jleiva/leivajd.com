@@ -1,11 +1,22 @@
-* {
+*, 
+:after, 
+:before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  word-break: break-word;
+}
+
+html {
+  /* https://css-tricks.com/simplified-fluid-typography/ */
+  font-size: 16px;
+  font-size: min(max(1rem, 4vw), 22px);
 }
 
 body {
   color: #414042;
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  font-size: 1em;
   line-height: 1.5;
   margin: 4em;
   padding: 0;
@@ -35,11 +46,6 @@ h1 {
   margin-bottom: 1.5em;
 }
 
-p, 
-li {
-  font-size: 1.75em;
-}
-
 abbr[title] {
   text-decoration: none;
 }
@@ -61,7 +67,7 @@ h2 {
 }
 
 main {
-  max-width: 80em;
+  max-width: 60em;
 }
 
 .post {
