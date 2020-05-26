@@ -18,10 +18,16 @@ body {
   color: #414042;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  margin: 4em;
+  margin: 1em;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    margin: 4em;
+  }
 }
 
 ol {
