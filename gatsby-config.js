@@ -3,8 +3,10 @@ module.exports = {
     title: `leivajd.com`,
     description: `leivajd.com es el website de José Leiva, un web developer que vive en San José, Costa Rica.`,
     author: `@leivajd`,
+    siteUrl: `https://leivajd.com`,
   },
   plugins: [
+    `gatsby-plugin-feed`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
