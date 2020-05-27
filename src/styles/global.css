@@ -26,6 +26,12 @@ body {
 
 @media screen and (min-width: 800px) {
   body {
+    margin: 3em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
     margin: 4em;
   }
 }
@@ -47,8 +53,7 @@ strong {
 }
 
 p,
-ul,
-h1 {
+ul {
   margin-bottom: 1.5em;
 }
 
@@ -66,14 +71,22 @@ a:hover {
   border-bottom-color: #333;
 }
 
+h1 {
+  margin-bottom: .5em;
+}
+
 h2 {
   margin-top: 1.5em;
   margin-bottom: .5em;
   position: relative;
 }
 
+header {
+  margin-bottom: 2em;
+}
+
 main {
-  max-width: 60em;
+  max-width: 45em;
 }
 
 .post {
