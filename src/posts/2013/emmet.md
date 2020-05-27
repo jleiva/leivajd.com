@@ -15,8 +15,7 @@ Instalar Emmet en Sublime Text usando Package Control:
 1. Abrir “Package Control: Install Package”, buscar e instalar Emmet plugin.
 2. Reiniciar ST
 
-En Emmet, algo como esto: `div.wrap>(header.header>nav.menu>ul>li*2>a{Item})+div.main>div.content+div.sidebar^footer.footer
-`
+En Emmet, algo como esto: `div.wrap>(header.header>nav.menu>ul>li*2>a{Item})+div.main>div.content+div.sidebar^footer.footer`
 
 Se convierte en:
 

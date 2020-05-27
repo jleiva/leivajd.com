@@ -11,8 +11,8 @@ categories: ["Tools"]
 
 Algunos tips:
 
-* [Multiple Cursors and Incremental Search](https://tutsplus.com/lesson/multiple-cursors-and-incremental-search/)
-* [Vintage Mode](https://tutsplus.com/lesson/vintage-mode/)
-* [All About Projects](https://tutsplus.com/lesson/all-about-projects/)
-* [Configuring and Mastering Split Windows](https://tutsplus.com/lesson/configuring-and-mastering-split-windows/)
-* [Custom Builds](https://tutsplus.com/lesson/custom-builds/)
+- [Multiple Cursors and Incremental Search](https://tutsplus.com/lesson/multiple-cursors-and-incremental-search/)
+- [Vintage Mode](https://tutsplus.com/lesson/vintage-mode/)
+- [All About Projects](https://tutsplus.com/lesson/all-about-projects/)
+- [Configuring and Mastering Split Windows](https://tutsplus.com/lesson/configuring-and-mastering-split-windows/)
+- [Custom Builds](https://tutsplus.com/lesson/custom-builds/)

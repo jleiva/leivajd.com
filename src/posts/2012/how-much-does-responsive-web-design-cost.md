@@ -9,4 +9,4 @@ categories: ["Responsive"]
 
 :O
 
-> Answer: $13.47.
+> Answer: \$13.47.

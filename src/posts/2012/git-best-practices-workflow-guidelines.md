@@ -7,10 +7,10 @@ externalUrl: "https://www.lullabot.com/articles/git-best-practices-workflow-guid
 categories: ["Open Source", "Git"]
 ---
 
-Buena lista de do's / don'ts en el uso de Git, aka pain in da a$$.
+Buena lista de do's / don'ts en el uso de Git, aka pain in da a\$\$.
 
-* Small, logical commits
-* Always review code before committing it
-* Never rebase shared commits
-* Never delete unmerged remote branches
-* Make your Git toolbox your own
+- Small, logical commits
+- Always review code before committing it
+- Never rebase shared commits
+- Never delete unmerged remote branches
+- Make your Git toolbox your own

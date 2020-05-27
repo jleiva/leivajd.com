@@ -9,9 +9,9 @@ categories: ["Citas", "Charlas"]
 
 Estos conceptos de [Lea Verou](http://lea.verou.me/) aplican para todo nivel, y son relevantes cuando presentamos código:
 
-* Do something unique
-* Never show a lot of code on a slide
-* IDEs are not good presentation tools
-* Don’t aim to beginners (only)
-* Eat your own dog food
-* Involve the audience
+- Do something unique
+- Never show a lot of code on a slide
+- IDEs are not good presentation tools
+- Don’t aim to beginners (only)
+- Eat your own dog food
+- Involve the audience

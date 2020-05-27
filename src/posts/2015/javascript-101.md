@@ -8,9 +8,9 @@ categories: ["JavaScript"]
 
 ### Scope and `this`
 
-* [Scope and this in JavaScript](http://javascriptplayground.com/blog/2012/04/javascript-variable-scope-this/)
+- [Scope and this in JavaScript](http://javascriptplayground.com/blog/2012/04/javascript-variable-scope-this/)
 
 ### Conditions
 
-* [Two Things About Conditionals in JavaScript](http://rmurphey.com/blog/2012/12/10/js-conditionals/)
-* [Switch... Case Considered Harmful](http://ericleads.com/2012/12/switch-case-considered-harmful/)
+- [Two Things About Conditionals in JavaScript](http://rmurphey.com/blog/2012/12/10/js-conditionals/)
+- [Switch... Case Considered Harmful](http://ericleads.com/2012/12/switch-case-considered-harmful/)

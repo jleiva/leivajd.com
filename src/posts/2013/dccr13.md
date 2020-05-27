@@ -14,12 +14,12 @@ El cuidado en los detalles, como las camisetas y tener un barista durante el eve
 
 Links a charlas:
 
-* [Be a Hero - Drupal Performance](http://slid.es/dmouse/performance) por David Flores.
+- [Be a Hero - Drupal Performance](http://slid.es/dmouse/performance) por David Flores.
 
 Notas relacionadas con el evento:
 
-* Nota en Semanario Unversidad sobre el evento: [Costa Rica se abre espacio en el mercado del Drupal](http://www.semanariouniversidad.ucr.cr/noticias/4192-Hoy%20en%20la%20U/11470-costa-rica-se-abre-espacio-en-el-mercado-del-drupal.html)
-* Post en el blog de Anexus IT: [Drupal Camp Costa Rica 2013 Insight](http://www.anexusit.com/drupalcamp-costa-rica-2013-insight)
+- Nota en Semanario Unversidad sobre el evento: [Costa Rica se abre espacio en el mercado del Drupal](http://www.semanariouniversidad.ucr.cr/noticias/4192-Hoy%20en%20la%20U/11470-costa-rica-se-abre-espacio-en-el-mercado-del-drupal.html)
+- Post en el blog de Anexus IT: [Drupal Camp Costa Rica 2013 Insight](http://www.anexusit.com/drupalcamp-costa-rica-2013-insight)
 
 Los amigos del [Drupodcast](http://www.drupodcast.com/), [David Flores](https://twitter.com/dmouse) y [Jesús Manuel Olivas](http://jmolivas.com/) dedicaron un [episodio de su show](https://youtu.be/G7gJfmjaWjo) para hablar sobre el Camp, su experiencia como expositores y elementos destacables del evento.
 

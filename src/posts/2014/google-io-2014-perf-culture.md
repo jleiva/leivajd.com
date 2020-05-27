@@ -11,5 +11,4 @@ categories: ["Web", "Performance"]
 
 Notas relacionadas:
 
-* [Building a Device Lab](http://laraswanson.com/devicelab/)
-
+- [Building a Device Lab](http://laraswanson.com/devicelab/)

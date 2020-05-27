@@ -10,8 +10,8 @@ categories: ["Responsive", "CSS"]
 Ni tan obvio, una rápida solución para mantener el aspect ratio cuando las imagenes tienen los atributos height y width en el HTML.
 
 ```
-img { 
-    max-width: 100%; 
-    height: auto; 
+img {
+    max-width: 100%;
+    height: auto;
 }
 ```

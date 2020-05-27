@@ -11,10 +11,11 @@ Palabra que sí!
 
 ```css
 @media only screen and (min-width: 960px) and (max-width: 970px) {
-body {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg); }
+  body {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
 }
 ```

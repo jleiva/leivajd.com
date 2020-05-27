@@ -7,4 +7,4 @@ externalUrl: "http://www.markboulton.co.uk/journal/comments/incremental-leading"
 categories: ["Tipografia"]
 ---
 
-Lectura recomendada.  [Mark Boulton](http://www.markboulton.co.uk/) da buenos tips sobre Vertical Rhythm
+Lectura recomendada. [Mark Boulton](http://www.markboulton.co.uk/) da buenos tips sobre Vertical Rhythm

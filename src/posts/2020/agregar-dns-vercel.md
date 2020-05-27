@@ -6,9 +6,9 @@ type: "nota"
 categories: ["JAMstack"]
 ---
 
-Hace un par de meses empece a usar [Vercel.com](https://vercel.com/), anteriormente llamado ZEIT, como servicio para hospedar landing pages y sitios web, el servicio esta m7aacute;s que recomendado. 
+Hace un par de meses empece a usar [Vercel.com](https://vercel.com/), anteriormente llamado ZEIT, como servicio para hospedar landing pages y sitios web, el servicio esta m7aacute;s que recomendado.
 
-Parte de la migraci&oacute;n incluye actualizar los Nameservers en el proveedor de los dominios, y usar los de Vercel. Agregar un dominio a uno de los proyectos hospedados en Vercel es sencillo, [esta bien documentado](https://vercel.com/docs/v2/custom-domains) y se hace desde el panel de administraci&oacute;n. El problema que encontr&eacute; fue con los DNS records, al momento de escribir este post, actualizar los DNS no se puede hacer desde el panel de administraci&oacute;n, esta es la soluci&oacute;n: 
+Parte de la migraci&oacute;n incluye actualizar los Nameservers en el proveedor de los dominios, y usar los de Vercel. Agregar un dominio a uno de los proyectos hospedados en Vercel es sencillo, [esta bien documentado](https://vercel.com/docs/v2/custom-domains) y se hace desde el panel de administraci&oacute;n. El problema que encontr&eacute; fue con los DNS records, al momento de escribir este post, actualizar los DNS no se puede hacer desde el panel de administraci&oacute;n, esta es la soluci&oacute;n:
 
 1. Instalar el [CLI de Vercel](https://vercel.com/download).
 2. Inspeccionar que los settings del dominio sean correctos: `vercel domains inspect <domain>`

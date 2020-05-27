@@ -13,8 +13,8 @@ La sesión se pensó para usuarios que tengan conocimiento de HTML/CSS, los cual
 
 Durante la sesión se cubrieron puntos que repetidamente hacen que los usuarios, no-programadores, prefieran usar otro CMS en lugar de Drupal:
 
-* Terminología básica
-* Primeros pasos en construir nuestro sitio, planeación y estrategia.
-* Como pasar del diseño al código, nuestro primer theme!
-* Administrar el markup generado por Drupal, manteniendo código semantico y limpio.
-* Buenas prácticas, como no volver loco a nuestro buen amigo programador :)
+- Terminología básica
+- Primeros pasos en construir nuestro sitio, planeación y estrategia.
+- Como pasar del diseño al código, nuestro primer theme!
+- Administrar el markup generado por Drupal, manteniendo código semantico y limpio.
+- Buenas prácticas, como no volver loco a nuestro buen amigo programador :)
