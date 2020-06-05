@@ -1,0 +1,25 @@
+.article {
+
+}
+
+.block h2 {
+    margin-bottom: 0.25em;;
+}
+
+.intro {
+    font-size: 2em;
+}
+
+.post {
+    margin-bottom: 4em;
+  }
+ 
+.postTitle {
+    font-size: 1.25em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+  
+.post p {
+    margin-top: 0;
+}
