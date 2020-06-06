@@ -4,7 +4,7 @@ date: "2013-02-19"
 title: "Huffduffer"
 type: "recordar"
 externalUrl: "http://huffduffer.com/"
-categories: ["Podcast"]
+tags: ["Podcast"]
 ---
 
 Soy fan de los podcast, sigo al menos 50 diferentes y iTunes es donde normalmente voy armando mi colección, pero siempre tengo el problema de que, sino tengo mi computadora cerca, revisar, compartir o guardar uno nuevo no es tan fácil como debería, hasta que di con [Huffduffer](http://huffduffer.com/):

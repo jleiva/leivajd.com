@@ -3,7 +3,7 @@ path: "/ooh-yeah-react"
 date: "2017-05-30"
 title: "Ooh yeah, React"
 type: "notas"
-categories: ["JavaScript", "Web", "React"]
+tags: ["JavaScript", "Web", "React"]
 ---
 
 - [https://thinkster.io/tutorials/getting-started-with-react](https://thinkster.io/tutorials/getting-started-with-react)

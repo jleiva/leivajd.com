@@ -3,7 +3,7 @@ path: "/theming-main-menu"
 date: "2013-04-08"
 title: "Theming main menu"
 type: "nota"
-categories: ["Drupal", "Theming"]
+tags: ["Drupal", "Theming"]
 ---
 
 Desde hace un tiempo, cada vez que construyo un tema, trato de usar elementos de HTML5, `header`, `aside`, `footer` y `nav`, por citar algunos. De esta manera puedo ir aclarando dudas que tengo entre la especificación y la implementación de estos elementos, y así termino de entender cuando sí, y cuando no, se usa cada elemento.

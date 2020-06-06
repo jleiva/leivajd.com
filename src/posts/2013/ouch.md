@@ -4,7 +4,7 @@ date: "2013-07-09"
 title: "Ouch!"
 type: "recordar"
 externalUrl: "http://www.swiss-miss.com/2013/07/ouch.html"
-categories: ["Citas", "Negocios"]
+tags: ["Citas", "Negocios"]
 ---
 
 [Tina Roth Eisenberg](http://www.swiss-miss.com/2013/07/ouch.html), sobre como debemos cuidar hasta el último detalle, siempre:

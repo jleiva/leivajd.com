@@ -4,7 +4,7 @@ date: "2012-06-20"
 title: "Fluid Type"
 type: "recordar"
 externalUrl: "https://trentwalton.com/2012/06/19/fluid-type/"
-categories: ["Responsive", "CSS", "Tipografia"]
+tags: ["Responsive", "CSS", "Tipografia"]
 ---
 
 En este momento estoy dedicando tiempo a escoger las fuentes a utilizar en el blog, con el detalle que quiero que sea Responsive, y bueno, los tips de [Trent Walton](http://trentwalton.com/) en el post [Fluid Type](http://trentwalton.com/2012/06/19/fluid-type/) me cayeron del cielo, el trick de "two asteriks" esta bien cool, y me gusta mucho su idea de lo que es RWD y como ve la Web.

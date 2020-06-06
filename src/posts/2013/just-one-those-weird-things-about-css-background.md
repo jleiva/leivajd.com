@@ -4,7 +4,7 @@ date: "2013-06-04"
 title: "Just One of Those Weird Things About CSS: Background on <body>"
 type: "recordar"
 externalUrl: "https://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/"
-categories: ["CSS"]
+tags: ["CSS"]
 ---
 
 Una situación con el que me he topado muchas veces, [en CSS-Tricks la respuesta](https://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/):

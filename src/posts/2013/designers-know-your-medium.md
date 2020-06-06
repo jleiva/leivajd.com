@@ -4,7 +4,7 @@ date: "2013-08-26"
 title: "Designers, know your medium"
 type: "recordar"
 externalUrl: "http://scottkellum.com/2013/08/13/designers-know-your-medium.html"
-categories: ["RWD", "Mobile"]
+tags: ["RWD", "Mobile"]
 ---
 
 Scott Kellum lo deja muy claro, si sos diseñador web, [tenés que conocer tu medio](http://scottkellum.com/2013/08/13/designers-know-your-medium.html).

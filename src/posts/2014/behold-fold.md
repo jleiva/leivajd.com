@@ -4,7 +4,7 @@ date: "2014-07-11"
 title: "Behold, the Fold"
 type: "recordar"
 externalUrl: "http://cognition.happycog.com/article/behold-the-fold"
-categories: ["Web", "UX", "Responsive"]
+tags: ["Web", "UX", "Responsive"]
 ---
 
 > The bottom of your screen may be very different than the bottom of my screen. With thousands of devices in use and all with vastly different resolution, there is no way to predict where the bottom of a viewport will fall...

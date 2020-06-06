@@ -3,7 +3,7 @@ path: "/drupalcon-latino-2015"
 date: "2015-02-18"
 title: "DrupalCon Latino 2015 - Bogotá"
 type: "nota"
-categories: ["Drupal", "DrupalCon", "CSS"]
+tags: ["Drupal", "DrupalCon", "CSS"]
 ---
 
 Big win for me ;)

@@ -4,7 +4,7 @@ date: "2013-06-06"
 title: "You become who you pretend to be"
 type: "recordar"
 externalUrl: "https://www.youtube.com/watch?v=VqvY3NSmzhc&feature=youtu.be"
-categories: ["Learning"]
+tags: ["Learning"]
 ---
 
 James Victore es un badass, y desde hace un rato soy fan de sus series de video, la nueva se llama [Burning Questions](https://www.youtube.com/user/JamesVictore/videos). En el episodio **Serious about Pretending**, da algunos tips sobre como _creernosla_, y así llegar a ser quienes queremos ser.

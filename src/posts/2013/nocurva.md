@@ -4,7 +4,7 @@ date: "2013-04-20"
 title: "No más curva. Drupal Camp Puebla"
 type: "nota"
 slidesURL: "https://www.slideshare.net/leivajd/puebla-nocurva"
-categories: ["Drupal", "Theming", "Charla"]
+tags: ["Drupal", "Theming", "Charla"]
 ---
 
 Gracias a todos los que asistieron a esta sesión. La [presentación de mi charla](https://www.slideshare.net/leivajd/puebla-nocurva) está disponible para descargar, la cual tambien [pueden ver acá](https://www.slideshare.net/leivajd/puebla-nocurva).

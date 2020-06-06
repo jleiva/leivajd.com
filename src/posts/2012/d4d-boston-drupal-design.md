@@ -4,7 +4,7 @@ date: "2012-05-16"
 title: "D4D Boston Drupal Design"
 type: "recordar"
 externalUrl: "http://boston2011.design4drupal.org/sessions/session-schedule"
-categories: ["Drupal", "Theming"]
+tags: ["Drupal", "Theming"]
 ---
 
 D4D Boston Drupa Design es un Drupal Camp dedicado al diseño y front end; a pesar de que el tema del sitio no está muy sexy, hay charlas bastante buenas e interesantes. La lista de las charlas que estoy viendo o tengo pendientes de ver:

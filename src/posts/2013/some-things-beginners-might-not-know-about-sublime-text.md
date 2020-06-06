@@ -4,7 +4,7 @@ date: "2013-03-07"
 title: "Some things beginners might not know about Sublime Text"
 type: "recordar"
 externalUrl: "http://blog.alainmeier.com/post/27255145114/some-things-beginners-might-not-know-about-sublime-text"
-categories: ["Tools"]
+tags: ["Tools"]
 ---
 
 Desde hace un tiempo, muy poco, adopte [Sublime Text](http://www.sublimetext.com/) como mi editor diario, y me arrepiento de no haberlo conocido antes.

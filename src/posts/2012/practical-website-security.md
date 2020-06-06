@@ -4,7 +4,7 @@ date: "2012-12-28"
 title: "Practical Website Security"
 type: "recordar"
 externalUrl: "http://drupalwatchdog.com/2/2/practical-security"
-categories: ["Drupal", "Internet"]
+tags: ["Drupal", "Internet"]
 ---
 
 Lo más básico:

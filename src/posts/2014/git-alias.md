@@ -3,7 +3,7 @@ path: "/git-alias"
 date: "2014-08-26"
 title: "Git, c&oacute;mo configurar alias"
 type: "nota"
-categories: ["Tools", "Git"]
+tags: ["Tools", "Git"]
 ---
 
 Pasos simples para usar alias en los comandos de git, por ejemplo, en lugar de escribir git status, podemos solo hacer gst:

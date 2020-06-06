@@ -3,7 +3,7 @@ path: "/javascript-101"
 date: "2015-05-14"
 title: "JavaScript 101"
 type: "nota"
-categories: ["JavaScript"]
+tags: ["JavaScript"]
 ---
 
 ### Scope and `this`

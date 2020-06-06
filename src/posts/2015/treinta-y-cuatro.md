@@ -3,7 +3,7 @@ path: "/treinta-y-cuatro"
 date: "2015-09-29"
 title: "Treinta y cuatro"
 type: "nota"
-categories: ["Personal"]
+tags: ["Personal"]
 ---
 
 Treinta y cuatro cosas que he aprendido en treinta y cuatro años.

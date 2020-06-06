@@ -4,7 +4,7 @@ date: "2016-08-02"
 title: "How to Think About Your Career"
 type: "recordar"
 externalUrl: "https://medium.com/@joulee/how-to-think-about-your-career-abf5300eba08#.39i8ksxfd"
-categories: ["Web", "Citas"]
+tags: ["Web", "Citas"]
 ---
 
 [C&oacute;mo pensar sobre nuestra carrera profesional](https://medium.com/@joulee/how-to-think-about-your-career-abf5300eba08#.39i8ksxfd):

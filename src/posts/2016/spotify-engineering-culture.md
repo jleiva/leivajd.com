@@ -3,7 +3,7 @@ path: "/spotify-engineering-culture"
 date: "2016-02-23"
 title: "Spotify Engineering Culture"
 type: "recordar"
-categories: ["Web", "Agile", "Scrum"]
+tags: ["Web", "Agile", "Scrum"]
 ---
 
 Dos video que muestran como Spotify aplica Scrum, y hablan mucho sobre su cultura.

@@ -3,7 +3,7 @@ path: "/portland"
 date: "2013-05-21"
 title: "DrupalCon Portland 2013"
 type: "nota"
-categories: ["Drupal", "DrupalCon"]
+tags: ["Drupal", "DrupalCon"]
 ---
 
 Hoy se inaguró el [DrupalCon Portland 2013](http://portland2013.drupal.org/), segundo Con del año. Estoy impresionado por la rápido que se esta publicando los videos de las sesiones, los cuales se pueden ver en el [canal de Youtube de la DA](http://www.youtube.com/user/DrupalAssociation/videos).

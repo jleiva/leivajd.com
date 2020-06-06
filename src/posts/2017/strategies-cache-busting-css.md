@@ -4,7 +4,7 @@ date: "2017-03-04"
 title: "Strategies for Cache-Busting CSS"
 type: "recordar"
 externalUrl: "https://css-tricks.com/strategies-for-cache-busting-css/"
-categories: ["Web", "Performance", "CSS"]
+tags: ["Web", "Performance", "CSS"]
 ---
 
 Util:

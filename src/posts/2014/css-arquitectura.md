@@ -3,7 +3,7 @@ path: "/css-arquitectura"
 date: "2014-10-13"
 title: "CSS, arquitectura y proyectos complejos"
 type: "nota"
-categories: ["CSS"]
+tags: ["CSS"]
 ---
 
 Este post es mi intento de recopilar, y tener a la mano, referencias y algunas notas sobre arquitectura de CSS/Sass y buenas prácticas, tips & tricks en proyectos complejos.

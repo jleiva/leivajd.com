@@ -4,7 +4,7 @@ date: "2017-03-29"
 title: "How to audit Drupal Sites for performance, content and best practices"
 type: "recordar"
 externalUrl: "https://youtu.be/A0XCRETqfYk"
-categories: ["Drupal", "Performance"]
+tags: ["Drupal", "Performance"]
 ---
 
 <figure class="video_container">

@@ -4,7 +4,7 @@ date: "2018-12-26"
 title: "Designing your website like it’s 2018"
 type: "recordar"
 externalUrl: "https://stuffandnonsense.co.uk/blog/designing-your-website-like-its-2018"
-categories: ["Citas", "Web"]
+tags: ["Citas", "Web"]
 ---
 
 [Andy Clarke](https://stuffandnonsense.co.uk/blog/designing-your-website-like-its-2018):

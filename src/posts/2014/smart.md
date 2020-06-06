@@ -4,7 +4,7 @@ date: "2014-05-12"
 title: "SMART"
 type: "recordar"
 externalUrl: "https://medium.com/triathlon-training/31df3c34fbec"
-categories: ["Cita"]
+tags: ["Cita"]
 ---
 
 SMART, con ejemplo, lo saca de [acá](https://medium.com/triathlon-training/31df3c34fbec) :)

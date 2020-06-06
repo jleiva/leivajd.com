@@ -4,7 +4,7 @@ date: "2013-07-18"
 title: "Introducción a Sass"
 type: "nota"
 slides: "https://www.slideshare.net/leivajd/drupaleadajulio13-sass"
-categories: ["Sass", "CSS", "Charlas"]
+tags: ["Sass", "CSS", "Charlas"]
 ---
 
 Mi presentacion, [Introducción a Sass](https://www.slideshare.net/leivajd/drupaleadajulio13-sass), en la Drupaleaa de este mes. Recursos recomendados:

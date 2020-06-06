@@ -3,7 +3,7 @@ path: "/grunt"
 date: "2014-07-06"
 title: "GruntJS"
 type: "nota"
-categories: ["Tools", "Theming"]
+tags: ["Tools", "Theming"]
 ---
 
 Oh wow! Esa fue mi reacción la primera vez que vi como funcionaba [Grunt](http://gruntjs.com).

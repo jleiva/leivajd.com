@@ -3,7 +3,7 @@ path: "/emmet"
 date: "2013-10-26"
 title: "Emmet"
 type: "nota"
-categories: ["HTML", "Tools"]
+tags: ["HTML", "Tools"]
 ---
 
 [Emmet](http://emmet.io/) es un plugin que nos ayuda a mejorar nuestro flujo de trabajo. Una vez instalado en nuestro editor, yo uso **Sublime Text**, hace que escribir HTML y CSS sea mucho más rápido, esto gracias a las abreviaciones y sintaxis que pone a nuestra disposición.

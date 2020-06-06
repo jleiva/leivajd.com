@@ -4,7 +4,7 @@ date: "2013-01-30"
 title: "DrupalCamp24x7"
 type: "recordar"
 externalUrl: "http://drupalcamp24x7.org/"
-categories: ["Drupal", "Open Source"]
+tags: ["Drupal", "Open Source"]
 ---
 
 Como un Drupal Camp, pero online, muchos videos y recursos organizados por nivel de conocimiento, versión de Drupal o track.

@@ -4,7 +4,7 @@ date: "2015-08-31"
 title: "How to Age Gracefully"
 type: "recordar"
 externalUrl: "https://www.youtube.com/watch?v=sycgL3Qg_Ak#action=share"
-categories: ["Citas"]
+tags: ["Citas"]
 ---
 
 Só.li.do!

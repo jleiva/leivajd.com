@@ -3,7 +3,7 @@ path: "/primer-taller-intro-drupal-2013"
 date: "2013-02-25"
 title: "Primer taller Intro Drupal 2013"
 type: "nota"
-categories: ["Drupal", "Theming"]
+tags: ["Drupal", "Theming"]
 ---
 
 El sábado pasado, realizamos entre [Estudio Manatí](http://estudiomanati.com/), [Max Mendez](http://maxmendez.net/) y yo, nuestro primer [taller Introducción a Drupal](http://estudiomanati.com/capacitacion/taller-introductorio-drupal-7-23-de-febrero.html) del año. Durante el día cubrimos:

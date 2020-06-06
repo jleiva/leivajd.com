@@ -4,7 +4,7 @@ date: "2017-05-30"
 title: "The Work You Do, the Person You Are"
 type: "recordar"
 externalUrl: "http://www.newyorker.com/magazine/2017/06/05/the-work-you-do-the-person-you-are"
-categories: ["Citas"]
+tags: ["Citas"]
 ---
 
 > ...I have never considered the level of labor to be the measure of myself, and I have never placed the security of a job above the value of home.

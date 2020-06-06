@@ -4,7 +4,7 @@ date: "2017-03-23"
 title: "Leading by Speaking"
 type: "recordar"
 externalUrl: "https://youtu.be/-XtE2AJZne8"
-categories: ["Web", "Negocios"]
+tags: ["Web", "Negocios"]
 ---
 
 Lara Hogan at The Lead Developer New York 2017

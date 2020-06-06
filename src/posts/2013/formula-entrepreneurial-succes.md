@@ -4,7 +4,7 @@ date: "2013-03-06"
 title: "Formula for Entrepreneurial Succes"
 type: "recordar"
 externalUrl: "https://medium.com/on-startups/ea0b02c504cd"
-categories: ["Negocios"]
+tags: ["Negocios"]
 ---
 
 Un puntaso para Ev Williams:

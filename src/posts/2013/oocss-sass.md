@@ -3,7 +3,7 @@ path: "/oocss-sass"
 date: "2013-07-09"
 title: "OOCSS + Sass"
 type: "recordar"
-categories: ["CSS", "Sass"]
+tags: ["CSS", "Sass"]
 ---
 
 Dos charlas de Nicole Sullivan ([@stubbornella](https://twitter.com/stubbornella)) sobre OOCSS y Sass:

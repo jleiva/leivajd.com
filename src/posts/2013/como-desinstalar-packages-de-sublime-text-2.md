@@ -3,7 +3,7 @@ path: "/como-desinstalar-packages-de-sublime-text-2"
 date: "2013-06-17"
 title: "Como desinstalar packages de Sublime Text 2"
 type: "nota"
-categories: ["Tools"]
+tags: ["Tools"]
 ---
 
 1. Abrir packages, en Win con teclas CTRL + SHIFT + P, en Mac Command + SHIFT + P

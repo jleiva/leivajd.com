@@ -4,7 +4,7 @@ date: "2015-05-20"
 title: "Collaborative Development Using Github and Pantheon"
 type: "recordar"
 externalUrl: "https://pantheon.io/docs/guides/collaborative-development-github-pantheon/"
-categories: ["Tools", "Git", "Drupal"]
+tags: ["Tools", "Git", "Drupal"]
 ---
 
 Pantheon y y Github son cool, [los dos juntos son recool](https://pantheon.io/docs/guides/collaborative-development-github-pantheon/) :)

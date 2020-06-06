@@ -4,7 +4,7 @@ date: "2013-02-04"
 title: "No, I'm not going to download your bullshit app"
 type: "recordar"
 externalUrl: "http://tommorris.org/posts/8070"
-categories: ["Internet", "Apps"]
+tags: ["Internet", "Apps"]
 ---
 
 En el punto de la guerra “web vs. apps”:

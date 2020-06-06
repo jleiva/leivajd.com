@@ -4,7 +4,7 @@ date: "2013-09-25"
 title: "Do"
 type: "recordar"
 externalUrl: "http://dcurt.is/do"
-categories: ["Citas", "DrupalCon"]
+tags: ["Citas", "DrupalCon"]
 ---
 
 La receta personal de [Dustin Curtis](http://dcurt.is/do) para el éxito y la felicidad:

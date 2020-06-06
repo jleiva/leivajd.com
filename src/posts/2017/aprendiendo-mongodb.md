@@ -3,7 +3,7 @@ path: "/aprendiendo-mongodb"
 date: "2017-05-10"
 title: "Aprendiendo MongoDB"
 type: "recordar"
-categories: ["Tools", "Web"]
+tags: ["Tools", "Web"]
 ---
 
 Recursos:

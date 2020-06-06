@@ -4,7 +4,7 @@ date: "2016-07-06"
 title: "Laziness in the Time of Responsive Design"
 type: "recordar"
 externalUrl: "https://vimeo.com/106869929"
-categories: ["CSS", "Responsive"]
+tags: ["CSS", "Responsive"]
 ---
 
 Una charla de hace 2 años, pero todos los tips siguen vigentes.

@@ -3,7 +3,7 @@ path: "/sub-themes-y-la-herencia-de-tpls"
 date: "2013-02-06"
 title: "Sub-themes y la herencia de tpl's"
 type: "nota"
-categories: ["Drupal", "Theming"]
+tags: ["Drupal", "Theming"]
 ---
 
 Estoy creando un sub-theme, usando Drupal 6, y durante el proceso es necesario crear un template `.tpl.php` para un page específico, hasta aquí cero complicaciones.

@@ -3,7 +3,7 @@ path: "/agregar-dns-vercel"
 date: "2020-05-11"
 title: "Agregar DNS records en Vercel"
 type: "nota"
-categories: ["JAMstack"]
+tags: ["JAMstack"]
 ---
 
 Hace un par de meses empece a usar [Vercel.com](https://vercel.com/), anteriormente llamado ZEIT, como servicio para hospedar landing pages y sitios web, el servicio esta m7aacute;s que recomendado.

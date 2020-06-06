@@ -4,7 +4,7 @@ date: "2015-02-19"
 title: "Drupaleada Febrero - Responsive en Drupal"
 type: "recordar"
 externalUrl: "http://www.slideshare.net/betovarg/responsive-en-drupal"
-categories: ["Drupal", "DrupalCR", "Responsive"]
+tags: ["Drupal", "DrupalCR", "Responsive"]
 ---
 
 El día de ayer se realizó la Drupaleada de Febrero en Origami. Las charlas fueron sobre **Drupal Theming** y **Responsive en Drupal**, esta última la dió Alberto Rojas de [Manatí](http://estudiomanati.com/); los slides, los cuales tienen links a recursos muy buenos.

@@ -4,7 +4,7 @@ date: "2013-07-09"
 title: "Ouch!"
 type: "recordar"
 externalUrl: "http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-name-your-sass-variables-modularly/"
-categories: ["CSS", "Sass"]
+tags: ["CSS", "Sass"]
 ---
 
 Tip rápido, [escribir variables de una manera modular](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-name-your-sass-variables-modularly/).

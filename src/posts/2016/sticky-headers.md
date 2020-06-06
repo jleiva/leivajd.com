@@ -4,7 +4,7 @@ date: "2016-07-01"
 title: "Sticky headers"
 type: "recordar"
 externalUrl: "https://adactio.com/journal/10877"
-categories: ["CSS", "Responsive"]
+tags: ["CSS", "Responsive"]
 ---
 
 Este Jeremy Keith, que cuando va a hacer algo lo piensa bien, en este caso, [Sticky headers](https://adactio.com/journal/10877)!

@@ -4,7 +4,7 @@ date: "2012-08-13"
 title: "DrupalCon Sao Paulo 2012 Scholarship"
 type: "recordar"
 externalUrl: "https://association.drupal.org/node/15334"
-categories: ["Drupal", "DrupalCon"]
+tags: ["Drupal", "DrupalCon"]
 ---
 
 Este año Brasil, además de samba, futbol y carnaval, va a tener mucho geekp0rn y Drupal love, porque en Diciembre se va a realizar el [DrupalCon Sao Paulo 2012](http://saopaulo2012.drupal.org/). Este es el primer DrupalCon que se realiza en latinoamerica, lo que hace que el evento sea doblemente importante.

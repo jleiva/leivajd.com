@@ -4,7 +4,7 @@ date: "2013-04-02"
 title: "This could be most essential CSS3 media query you’ll need today"
 type: "recordar"
 externalUrl: "http://stuffandnonsense.co.uk/blog/about/the-most-essential-css3-media-query-youll-need-today"
-categories: ["CSS", "Responsive"]
+tags: ["CSS", "Responsive"]
 ---
 
 Palabra que sí!

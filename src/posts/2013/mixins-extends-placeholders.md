@@ -3,7 +3,7 @@ path: "/mixins-extends-placeholders"
 date: "2013-08-16"
 title: "Mixins, extends & placeholders"
 type: "nota"
-categories: ["CSS", "Sass"]
+tags: ["CSS", "Sass"]
 ---
 
 Mixins, extends y placeholders son de las features más robustas que tiene Sass, pero a veces la diferencia entre uno y otro puede ser poco clara cuando queremos decidir cuando usarlos, acá algunos links para que nos iluminen el camino:

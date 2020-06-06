@@ -3,7 +3,7 @@ path: "/dccr13"
 date: "2013-09-19"
 title: "Apuntes DrupalCamp Costa Rica 2013"
 type: "nota"
-categories: ["Drupal", "DrupalCR", "Comunidad"]
+tags: ["Drupal", "DrupalCR", "Comunidad"]
 ---
 
 Hace una semana estabamos terminando de afinar detalles para lo que fue el mejor evento, a la fecha, sobre Drupal en el país, el [DrupalCamp Costa Rica 2013](http://camp2013.drupalcr.org/). Fue un evento de dos días en el que tuvimos talleres y charlas de diferentes niveles, las cuales fueron impartidas por gente que sabe de Drupal y gente que _hace_ Drupal, como [Crell](https://drupal.org/user/26398), lo que elevo por mucho el nivel de las charlas; la asistencia al evento fue de alrededor de 310 personas, con visitantes de lugares como Israel, México, Guatemala, Panamá y los Estados Unidos.

@@ -3,7 +3,7 @@ path: "/introduccion-pwa"
 date: "2019-09-06"
 title: "Introducción a PWA"
 type: "notas"
-categories: ["PWA", "Responsive", "Web"]
+tags: ["PWA", "Responsive", "Web"]
 ---
 
 Mi charla sobre **Introducción a PWA** fue aceptada en el WordCamp San José 2019, evento que se realiz&oacute; los d&iacute;as 7 y 8 de Setiembre. Si hay feedback ó sugerencias para mejorar la charla y/o mi manera de exponer, me pueden tuitear [@leivajd](https://twitter.com/leivajd) ó escribir a leivajd [@] gmail.com.

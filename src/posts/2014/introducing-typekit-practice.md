@@ -4,7 +4,7 @@ date: "2014-04-20"
 title: "Introducing Typekit Practice"
 type: "recordar"
 externalUrl: "http://practice.typekit.com/"
-categories: ["Web", "Citas", "Tipografia"]
+tags: ["Web", "Citas", "Tipografia"]
 ---
 
 Tim Brown, Typekit:

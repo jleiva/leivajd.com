@@ -4,7 +4,7 @@ date: "2017-11-12"
 title: "Cognitive Biases in Programming"
 type: "recordar"
 externalUrl: "https://medium.com/@evidanary/cognitive-biases-in-programming-5e937707c27b"
-categories: ["Citas", "Web"]
+tags: ["Citas", "Web"]
 ---
 
 > 1. Hyperbolic Discounting: Going for an immediate payoff instead of a delayed larger one

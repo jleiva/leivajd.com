@@ -4,7 +4,7 @@ date: "2014-04-29"
 title: "Life Advice: How should a 22-year-old invest time?"
 type: "recordar"
 externalUrl: "http://edweissman.wordpress.com/2013/03/24/who-is-a-good-programmer/"
-categories: ["Web", "Citas"]
+tags: ["Web", "Citas"]
 ---
 
 Son seis consejos, este me gusta.

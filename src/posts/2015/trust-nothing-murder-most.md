@@ -4,7 +4,7 @@ date: "2015-08-28"
 title: "Trust Nothing, Murder Most"
 type: "recordar"
 externalUrl: "https://deardesignstudent.com/trust-nothing-murder-most-dcd512b28889"
-categories: ["Citas", "Web", "Negocios"]
+tags: ["Citas", "Web", "Negocios"]
 ---
 
 Mike Monteiro, sobre defender ideas solo por que sí

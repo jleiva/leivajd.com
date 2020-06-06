@@ -4,7 +4,7 @@ date: "2012-09-07"
 title: "12 Lessons Steve Jobs Taught Guy Kawasaki"
 type: "recordar"
 externalUrl: "http://youtu.be/DR_wX0EwOMM"
-categories: ["Negocios"]
+tags: ["Negocios"]
 ---
 
 > "Experts" are clueless

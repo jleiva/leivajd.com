@@ -4,7 +4,7 @@ date: "2013-07-30"
 title: "Style Placeholder Text"
 type: "recordar"
 externalUrl: "http://css-tricks.com/snippets/css/style-placeholder-text/"
-categories: ["CSS"]
+tags: ["CSS"]
 ---
 
 Snippet recomendado, [darle estilo a placeholder](http://css-tricks.com/snippets/css/style-placeholder-text/).

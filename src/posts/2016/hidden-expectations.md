@@ -4,7 +4,7 @@ date: "2016-08-02"
 title: "Hidden Expectations"
 type: "recordar"
 externalUrl: "http://daverupert.com/2016/08/hidden-expectations/"
-categories: ["Web", "Citas"]
+tags: ["Web", "Citas"]
 ---
 
 Un post de Dave Rupert, sobre las [expectativas que est&aacute;n ocultas](http://daverupert.com/2016/08/hidden-expectations/).

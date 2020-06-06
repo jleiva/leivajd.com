@@ -4,7 +4,7 @@ date: "2012-06-12"
 title: "Contributing 101"
 type: "recordar"
 externalUrl: "http://drupalwatchdog.com/1/2/contributing-101"
-categories: ["Drupal", "Open Source"]
+tags: ["Drupal", "Open Source"]
 ---
 
 He estado trabajando en un theme, con la idea de contribuirlo en Drupal.org, lo que ha significado todo un proceso de aprendizaje, proceso que se ha movido entre interesante y frustrante; interesante porque he aprendido bastante y frustrante por la cantidad de documentación que he tenido que leer, no solo para poder construir mi theme, sino también para poder revisar issues que se encuentran en estado de _need review_, con el fin de obtener un Review Bonus.

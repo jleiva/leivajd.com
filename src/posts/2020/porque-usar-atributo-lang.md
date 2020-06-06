@@ -3,7 +3,7 @@ path: "/porque-usar-atributo-lang"
 date: "2020-05-12"
 title: "Sobre el uso del atributo lang"
 type: "nota"
-categories: ["CSS", "HTML", "A11y", "Accesibilidad"]
+tags: ["CSS", "HTML", "A11y", "Accesibilidad"]
 ---
 
 El atributo de HTML [`lang`](https://www.w3.org/TR/html51/dom.html#the-lang-and-xmllang-attributes) especifica el idioma principal del contenido de un documento; para establecer el idioma que se quiere usar, se debe agregar el atributo a la etiqueta `<html>`:

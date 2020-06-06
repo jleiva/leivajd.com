@@ -4,7 +4,7 @@ date: "2020-05-19"
 title: "Google Developers: Café con Paco con Juan Pablo Buriticá"
 type: "recordar"
 externalUrl: "https://youtu.be/t9VgWmGYK2c"
-categories: ["Negocios", "Remote"]
+tags: ["Negocios", "Remote"]
 ---
 
 Juan Pablo Buriticá ([@buritica](https://twitter.com/buritica)), quien ha dirigido múltiples equipos distribuidos de ingeniería, [habla sobre los retos y oportunidades](https://youtu.be/t9VgWmGYK2c) que enfretan los equipos en estos tiempos de pandemia.

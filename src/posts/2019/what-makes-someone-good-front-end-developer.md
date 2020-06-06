@@ -4,7 +4,7 @@ date: "2019-01-31"
 title: "What makes someone a good front-end developer?"
 type: "recordar"
 externalUrl: "https://gomakethings.com/what-makes-someone-a-good-front-end-developer/"
-categories: ["Citas", "Web"]
+tags: ["Citas", "Web"]
 ---
 
 > The least important skills for a front-end developer to have are technical ones.
