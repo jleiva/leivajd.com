@@ -1,89 +1,78 @@
-// import React from 'react'
-// import { Link, graphql } from 'gatsby'
+import React from "react"
+import { graphql, Link } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-// import Layout from '../components/layout'
+import styles from "../styles/home.module.css"
 
-// class BlogIndex extends React.Component {
-//   render() {
-//     const { data } = this.props
-//     const siteTitle = data.site.siteMetadata.title
-//     const posts = data.allMarkdownRemark.edges
-//     const { currentPage, numPages } = this.props.pageContext
-//     const isFirst = currentPage === 1
-//     const isLast = currentPage === numPages
-//     const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString()
-//     const nextPage = (currentPage + 1).toString()
+export default ({ data, pageContext }) => {
+  const { currentPage, numPages } = pageContext
+  const isFirst = currentPage === 1
+  const isLast = currentPage === numPages
+  const prevPage =
+    currentPage - 1 === 1
+      ? "/blog"
+      : `/blog/pagina/${(currentPage - 1).toString()}`
+  const nextPage = `blog/pagina/${(currentPage + 1).toString()}`
 
-//     return (
-//       <Layout location={this.props.location} title={siteTitle}>
-//         {posts.map(({ node }) => {
-//           const title = node.frontmatter.title || node.fields.slug
-//           return (
-//             <div key={node.fields.slug}>
-//               <h3>
-//                 <Link to={node.fields.slug}>
-//                   {title}
-//                 </Link>
-//               </h3>
-//               <small>{node.frontmatter.date}</small>
-//               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-//             </div>
-//           )
-//         })}
-//         <ul >
-//           {!isFirst && (
-//             <Link to={prevPage} rel="prev">
-//               ← Previous Page
-//             </Link>
-//           )}
-//           {Array.from({ length: numPages }, (_, i) => (
-//             <li
-//               key={`pagination-number${i + 1}`}
-//             >
-//               <Link
-//                 to={`/${i === 0 ? '' : i + 1}`}
-//               >
-//                 {i + 1}
-//               </Link>
-//             </li>
-//           ))}
-//           {!isLast && (
-//             <Link to={nextPage} rel="next">
-//               Next Page →
-//             </Link>
-//           )}
-//         </ul>
-//       </Layout>
-//     )
-//   }
-// }
+  return (
+    <Layout>
+      <SEO title="Inicio" />
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <div className={styles.post} key={node.id}>
+          <h3 className={styles.postTitle}>
+            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+          </h3>
+          <time className="dtPublished">{node.frontmatter.date}</time>
+          <div
+            className={styles.article}
+            dangerouslySetInnerHTML={{ __html: node.html }}
+          />
+        </div>
+      ))}
 
-// export default BlogIndex
-
-// export const pageQuery = graphql`
-//   query blogPageQuery($skip: Int!, $limit: Int!) {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//     allMarkdownRemark(
-//       sort: { fields: [frontmatter___date], order: DESC }
-//       limit: $limit
-//       skip: $skip
-//     ) {
-//       edges {
-//         node {
-//           excerpt
-//           fields {
-//             slug
-//           }
-//           frontmatter {
-//             date(formatString: "DD MMMM, YYYY")
-//             title
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+      <ul>
+        {!isFirst && (
+          <Link to={prevPage} rel="prev">
+            ← Previous Page
+          </Link>
+        )}
+        {Array.from({ length: numPages }, (_, i) => (
+          <li key={`pagination-number${i + 1}`}>
+            <Link to={`/${i === 0 ? "" : i + 1}`}>{i + 1}</Link>
+          </li>
+        ))}
+        {!isLast && (
+          <Link to={nextPage} rel="next">
+            Next Page →
+          </Link>
+        )}
+      </ul>
+    </Layout>
+  )
+}
+export const query = graphql`
+  query blogPageQuery($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      limit: $limit
+      skip: $skip
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { isDraft: { ne: true } } }
+    ) {
+      edges {
+        node {
+          id
+          html
+          frontmatter {
+            date(formatString: "DD-MM-YYYY")
+            path
+            title
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`

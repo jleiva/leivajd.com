@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 import styles from "../styles/home.module.css"
 
-export default ({ data, pageContext }) => {
+export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Inicio" />
