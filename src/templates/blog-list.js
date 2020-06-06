@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
+import Pagination from "../components/pagination"
 import SEO from "../components/seo"
 
 import styles from "../styles/home.module.css"
@@ -31,23 +32,19 @@ export default ({ data, pageContext }) => {
         </div>
       ))}
 
-      <ul>
+      <Pagination>
         {!isFirst && (
           <Link to={prevPage} rel="prev">
-            ← Previous Page
+            ← Anterior
           </Link>
         )}
-        {Array.from({ length: numPages }, (_, i) => (
-          <li key={`pagination-number${i + 1}`}>
-            <Link to={`/${i === 0 ? "" : i + 1}`}>{i + 1}</Link>
-          </li>
-        ))}
+
         {!isLast && (
           <Link to={nextPage} rel="next">
-            Next Page →
+            Reciente →
           </Link>
         )}
-      </ul>
+      </Pagination>
     </Layout>
   )
 }

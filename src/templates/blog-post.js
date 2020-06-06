@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
+import Pagination from "../components/pagination"
 
 import styles from "../styles/blog-post.module.css"
 
@@ -20,7 +21,7 @@ export default function BlogPost({ data, pageContext }) {
         className={styles.post}
         dangerouslySetInnerHTML={{ __html: post.html }}
       />
-      <ul className={styles.pager}>
+      <Pagination>
         {previous && (
           <li>
             <Link to={previous.fields.slug} rel="prev">
@@ -35,7 +36,7 @@ export default function BlogPost({ data, pageContext }) {
             </Link>
           </li>
         )}
-      </ul>
+      </Pagination>
     </Layout>
   )
 }

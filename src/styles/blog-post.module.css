@@ -1,9 +1,3 @@
-.pager {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
 .post {
     margin-bottom: 3em;
 }
