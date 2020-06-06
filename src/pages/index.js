@@ -18,7 +18,9 @@ export default ({ data }) => {
       </aside>
 
       <div className={styles.block}>
-        <h2>Del blog.</h2>
+        <h2>
+          Del <Link to="/blog">blog</Link>.
+        </h2>
         <p>
           Algunas notas y links que voy recopilando; te pod&eacute;s suscribir
           al{" "}
@@ -34,7 +36,9 @@ export default ({ data }) => {
           <h3 className={styles.postTitle}>
             <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
           </h3>
-          <time className="dtPublished">{node.frontmatter.date}</time>
+          <div className={styles.metadata}>
+            <time className="dtPublished">{node.frontmatter.date}</time>
+          </div>
           <div
             className={styles.article}
             dangerouslySetInnerHTML={{ __html: node.html }}

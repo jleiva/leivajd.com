@@ -1,7 +1,12 @@
+.article {
+    font-size: .875em;
+}
+
 .block {
     margin-bottom: 3em;
 }
 
+.block h1,
 .block h2 {
     font-size: 1.75em;
     margin: 0;
@@ -16,12 +21,21 @@
     margin-bottom: 0;
 }
 
+.metadata {
+    font-size: .75em;
+    margin: .75em 0;
+}
+
 .post {
     margin-bottom: 4em;
-  }
+}
+
+.post p {
+    margin-top: 0;
+}
  
 .postTitle {
-    font-size: 1.25em;
+    font-size: 1em;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -35,8 +49,4 @@
 
 .postTitle a:hover {
     text-decoration: none;
-}
-  
-.post p {
-    margin-top: 0;
 }
