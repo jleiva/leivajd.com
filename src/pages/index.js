@@ -9,7 +9,7 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title="Inicio" />
-      <aside>
+      <aside className={styles.block}>
         <p className={styles.intro}>
           ¡Hey! Esta es la casa <em>online</em> de{" "}
           <Link to="/work">Jos&eacute; Leiva</Link>, un web designer que vive en
@@ -20,7 +20,8 @@ export default ({ data, pageContext }) => {
       <div className={styles.block}>
         <h2>Del blog.</h2>
         <p>
-          Algunas notas y links que voy recopilando; te podes suscribir al{" "}
+          Algunas notas y links que voy recopilando; te pod&eacute;s suscribir
+          al{" "}
           <Link to="/rss.xml">
             <strong>RSS feed</strong>
           </Link>
@@ -31,8 +32,9 @@ export default ({ data, pageContext }) => {
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div className={styles.post} key={node.id}>
           <h3 className={styles.postTitle}>
-            {node.frontmatter.title} <span>— {node.frontmatter.date}</span>
+            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
           </h3>
+          <time className="dtPublished">{node.frontmatter.date}</time>
           <div
             className={styles.article}
             dangerouslySetInnerHTML={{ __html: node.html }}
@@ -46,7 +48,7 @@ export const query = graphql`
   query indexPageQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
+      limit: 10
       filter: { frontmatter: { isDraft: { ne: true } } }
     ) {
       edges {
