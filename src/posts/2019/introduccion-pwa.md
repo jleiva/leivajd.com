@@ -2,7 +2,7 @@
 path: "/introduccion-pwa"
 date: "2019-09-06"
 title: "Introducción a PWA"
-type: "notas"
+type: "nota"
 tags: ["PWA", "Responsive", "Web"]
 ---
 

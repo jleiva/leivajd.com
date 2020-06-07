@@ -2,7 +2,7 @@
 path: "/ooh-yeah-react"
 date: "2017-05-30"
 title: "Ooh yeah, React"
-type: "notas"
+type: "nota"
 tags: ["JavaScript", "Web", "React"]
 ---
 
