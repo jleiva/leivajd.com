@@ -85,6 +85,11 @@ header {
   margin-bottom: 1.5em;
 }
 
+footer {
+  border-top: 1px solid #bbb;
+  padding-top: 1.5em;
+}
+
 main {
   max-width: 45em;
 }

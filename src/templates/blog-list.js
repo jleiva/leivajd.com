@@ -21,16 +21,16 @@ export default ({ data, pageContext }) => {
       <SEO title="Inicio" />
 
       <div className={styles.block}>
-        <h1>Cosas que escribo.</h1>
+        <h1>
+          <em>Document your stuff</em>
+        </h1>
         <p>
-          Me gusta pensar que este espacio es un reflejo del principio{" "}
-          <a href="https://indieweb.org/principles">
-            <em>Document your stuff</em>
-          </a>{" "}
-          de <a href="https://indieweb.org/">IndieWeb</a>; un espacio que me
-          sirve tanto de archivo, como una manera de documentar mi viaje.
-          Aqu&iacute; vas a encontrar notas sobre front-end, enfocado en HTML,
-          CSS, accesibilidad, entre otras cosas; te pod&eacute;s suscribir al{" "}
+          Me gusta pensar que este espacio es un reflejo{" "}
+          <a href="https://indieweb.org/principles">del principio</a> de{" "}
+          <a href="https://indieweb.org/">IndieWeb</a>; un espacio que me sirve
+          para documentar lo que voy aprendiendo. Aqu&iacute; vas a encontrar
+          notas sobre front-end, enfocado en HTML, CSS, accesibilidad, entre
+          otras cosas; te pod&eacute;s suscribir al{" "}
           <Link to="/rss.xml">
             <strong>RSS feed</strong>
           </Link>

@@ -18,8 +18,35 @@ export default ({ data }) => {
       </aside>
 
       <div className={styles.block}>
+        <h2>En otras partes</h2>
+
+        <ul className={styles.items}>
+          <li>
+            <strong>Twitter:</strong>{" "}
+            <a href="https://twitter.com/leivajd">@leivajd</a>
+          </li>
+          <li>
+            <strong>GitHub:</strong>{" "}
+            <a href="https://github.com/jleiva">https://github.com/jleiva</a>
+          </li>
+          <li>
+            <strong>Drupal user:</strong>{" "}
+            <a href="https://www.drupal.org/user/634642">
+              drupal.org/user/634642
+            </a>
+          </li>
+          <li>
+            <strong>LinkedIn:</strong>{" "}
+            <a href="https://cr.linkedin.com/in/leivajd">
+              https://cr.linkedin.com/in/leivajd
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className={styles.block}>
         <h2>
-          Del <Link to="/blog">blog</Link>.
+          Del <Link to="/blog">blog</Link>
         </h2>
         <p>
           Algunas notas y links que voy recopilando; te pod&eacute;s suscribir
@@ -52,7 +79,7 @@ export const query = graphql`
   query indexPageQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 10
+      limit: 5
       filter: { frontmatter: { isDraft: { ne: true } } }
     ) {
       edges {

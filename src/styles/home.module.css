@@ -17,8 +17,13 @@
 }
 
 .intro {
-    font-size: 2em;
+    font-size: 1.75em;
     margin-bottom: 0;
+}
+
+.items {
+    font-size: .875em;
+    margin-top: .75em;
 }
 
 .metadata {
