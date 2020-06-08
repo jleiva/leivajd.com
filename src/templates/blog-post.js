@@ -7,16 +7,22 @@ import styles from "../styles/blog-post.module.css"
 
 export default function BlogPost({ data, pageContext }) {
   const post = data.markdownRemark
+  const tags = post.frontmatter.tags
   const { next, previous } = pageContext
 
   return (
     <Layout>
-      <h1>{post.frontmatter.title}</h1>
+      <h1 className={styles.postTitle}>{post.frontmatter.title}</h1>
       {/* ToDo: 
         1. Missing attr datetime
         2. Add itemprop to post
       */}
-      <time className="dtPublished">{post.frontmatter.date}</time>
+      <div className={styles.metadata}>
+        <time className="dtPublished">{post.frontmatter.date}</time>
+        <span className={styles.tags}>
+          {tags.length ? `Tags: ${tags.join(", ")}` : ""}
+        </span>
+      </div>
       <div
         className={styles.post}
         dangerouslySetInnerHTML={{ __html: post.html }}
@@ -48,6 +54,7 @@ export const query = graphql`
       frontmatter {
         date(formatString: "DD-MM-YYYY")
         title
+        tags
       }
     }
   }

@@ -1,3 +1,24 @@
+.metadata {
+    font-size: .75em;
+    margin: 1.5em 0 3em;
+}
+
 .post {
     margin-bottom: 3em;
+}
+
+.postTitle {
+    margin-bottom: 0;
+}
+
+.tags {
+    margin: 0 .5em;
+}
+
+.tags:before {
+    display: inline-block;
+    color: #1F6B9C;
+    content: '/';
+    font-weight: bold;
+    margin-right: .5em;
 }
