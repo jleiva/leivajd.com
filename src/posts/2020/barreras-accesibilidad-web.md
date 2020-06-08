@@ -4,7 +4,7 @@ date: "2020-05-15"
 title: "Barreras para la accesibilidad web: degradados de color y lenguaje inclusivo"
 type: "recordar"
 externalUrl: "https://wordpress.tv/2020/05/09/vicent-sanchis-barreras-para-la-accesibilidad-web-degradados-de-color-y-lenguaje-inclusivo/"
-tags: ["A11y", "Accesibilidad", WordPress]
+tags: ["A11y", "Accesibilidad", "WordPress"]
 ---
 
 Vicent Sanchis: [Barreras para la accesibilidad web: degradados de color y lenguaje inclusivo](https://wordpress.tv/2020/05/09/vicent-sanchis-barreras-para-la-accesibilidad-web-degradados-de-color-y-lenguaje-inclusivo/), una de las charlas del WordCamp España 2020, en el sitio web estan los [videos de todo el evento](https://2020.spain.wordcamp.org/videos/).
