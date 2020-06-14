@@ -93,3 +93,14 @@ footer {
 main {
   max-width: 45em;
 }
+
+pre {
+  background: #f5f2f0;
+  color: #000;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-size: .8em;
+  margin: 1.5em 0;
+  padding: 1em;
+  text-shadow: 0 1px white;
+  white-space: pre-wrap;
+}
