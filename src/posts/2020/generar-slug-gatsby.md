@@ -26,10 +26,10 @@ Gatsby permite generar secciones/pages de manera programatica, es decir, podemos
 
 El slug es fundamental, porque es la manera mediante la cual podemos acceder a ese contenido que generamos programaticamente. En la documentaci&oacute;n se cubre el [como generar slugs](https://www.gatsbyjs.org/docs/creating-slugs-for-pages/), y depende del plugin [`gatsby-source-filesystem`](https://www.gatsbyjs.org/packages/gatsby-source-filesystem/), mismo que se usa en la configuraci&oacute;n de consumir contenido desde archivos mardown.
 
-
 Algunas opciones de como generar el slug cuando el contenido viene desde archivos mardown.
 
 ### Agregar el slug en metadata
+
 Posiblemente la manera m&aacute;s sencilla es, agregar el slug en la metada de cada archivo markdown, algo como:
 
 ```
@@ -43,6 +43,7 @@ title: "Generar slug en Gatsby"
 Y despu&eacute;s consumir el slug, como se hace en la gu&iacute;a [Adding Markdown Pages](https://www.gatsbyjs.org/docs/adding-markdown-pages/).
 
 ### Usar onCreateNode para generar el slug
+
 Podemos usar la funci&oacute;n [`onCreateNode`](https://www.gatsbyjs.org/docs/node-apis/#onCreateNode) de `gatsby-source-filesystem`, la cual se ejecuta cuando se crea un node (en mi caso un post), y nos permite agregar un _field_ nuevo. El ejemplo de abajo es [de la documentaci&oacute;n](https://www.gatsbyjs.org/tutorial/part-seven/#creating-slugs-for-pages):
 
 ```javascript
