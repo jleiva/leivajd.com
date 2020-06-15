@@ -18,7 +18,10 @@ export default ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title="Inicio" />
+      <SEO
+        title="Blog"
+        description="Notas sobre front-end de José Leiva, un web developer que vive en San José, Costa Rica."
+      />
 
       <div className={styles.block}>
         <h1>

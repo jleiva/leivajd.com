@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import Pagination from "../components/pagination"
+import SEO from "../components/seo"
 
 import styles from "../styles/blog-post.module.css"
 
@@ -9,10 +10,12 @@ export default function BlogPost({ data, pageContext }) {
   const post = data.markdownRemark
   const tags = post.frontmatter.tags
   const { next, previous } = pageContext
+  const postTitle = post.frontmatter.title
 
   return (
     <Layout>
-      <h1 className={styles.postTitle}>{post.frontmatter.title}</h1>
+      <SEO title={postTitle} />
+      <h1 className={styles.postTitle}>{postTitle}</h1>
       {/* ToDo: 
         1. Missing attr datetime
         2. Add itemprop to post

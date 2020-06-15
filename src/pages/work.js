@@ -7,8 +7,9 @@ import styles from "../styles/work.module.css"
 const WorkPage = () => (
   <>
     <SEO
-      title="José Leiva - Work"
+      title="Work - José Leiva"
       description="leivajd.com is the website of José Leiva, Lord Webmaster of the Kingsguard, living in San José, Costa Rica."
+      lang="en"
     />
     <div className={styles.wrap}>
       <h1>
