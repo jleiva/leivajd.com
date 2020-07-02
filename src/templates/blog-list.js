@@ -60,13 +60,13 @@ export default ({ data, pageContext }) => {
       <Pagination>
         {!isFirst && (
           <Link to={prevPage} rel="prev">
-            ← Anterior
+            ← Reciente
           </Link>
         )}
 
         {!isLast && (
           <Link to={nextPage} rel="next">
-            Reciente →
+            Anterior →
           </Link>
         )}
       </Pagination>
