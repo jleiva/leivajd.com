@@ -90,10 +90,12 @@ abbr[title] {
 }
 
 h1 {
+  font-size: 1.75em;
   margin-bottom: .5em;
 }
 
 h2 {
+  font-size: 1.25em;
   margin-top: 1.5em;
   margin-bottom: .5em;
   position: relative;
@@ -105,6 +107,8 @@ header {
 
 footer {
   border-top: 1px solid #bbb;
+  color: #7c7c7a;
+  font-size: .85em;
   padding-top: 1.5em;
 }
 

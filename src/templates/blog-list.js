@@ -24,9 +24,7 @@ export default ({ data, pageContext }) => {
       />
 
       <div className={styles.block}>
-        <h1>
-          <em>Document your stuff</em>
-        </h1>
+        <h1>Document your stuff</h1>
         <p>
           Me gusta pensar que este espacio es un reflejo{" "}
           <a href="https://indieweb.org/principles">del principio</a> de{" "}

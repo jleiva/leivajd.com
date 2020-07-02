@@ -1,5 +1,6 @@
 .metadata {
-    font-size: .75em;
+    color: #7c7c7a;
+    font-size: .7125em;
     margin: 1.5em 0 3em;
 }
 
@@ -17,7 +18,6 @@
 
 .tags:before {
     display: inline-block;
-    color: #1F6B9C;
     content: '/';
     font-weight: bold;
     margin-right: .5em;

@@ -1,5 +1,5 @@
 .article {
-    font-size: .875em;
+    font-size: .8125em;
 }
 
 .block {
@@ -9,7 +9,6 @@
 .block h1,
 .block h2 {
     color: #000;
-    font-size: 1.25em;
     margin: 0;
 }
 
@@ -34,7 +33,8 @@
 }
 
 .metadata {
-    font-size: .75em;
+    color: #7c7c7a;
+    font-size: .7125em;
     margin: .75em 0;
 }
 
@@ -50,16 +50,4 @@
     font-size: 1em;
     margin-bottom: 0;
     margin-top: 0;
-}
-
-.postTitle a:link,
-.postTitle a:visited {
-    color: #000;
-    text-decoration: underline;
-    text-decoration-color: #bbb;
-}
-
-.postTitle a:hover {
-    color: #1978D2;
-    text-decoration: none;
 }
