@@ -25,14 +25,7 @@
 }
 
 .intro a:link {
-    text-decoration-color: #1F6B9C;
-    text-decoration-line: underline;
     text-decoration-thickness: 3px;
-    text-decoration-style: wavy;
-}
-
-.intro a:hover {
-    text-decoration: none;
 }
 
 .items {
@@ -59,13 +52,14 @@
     margin-top: 0;
 }
 
-.postTitle a:link {
-    border: 0;
+.postTitle a:link,
+.postTitle a:visited {
     color: #000;
     text-decoration: underline;
     text-decoration-color: #bbb;
 }
 
 .postTitle a:hover {
+    color: #1978D2;
     text-decoration: none;
 }

@@ -13,7 +13,9 @@ const Header = ({ siteTitle }) => (
         </Link>
         <ul className={styles.list}>
           <li>
-            <a href="/blog">Blog</a>
+            <a href="/blog" className={styles.action}>
+              Blog
+            </a>
           </li>
         </ul>
       </nav>

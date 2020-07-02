@@ -15,8 +15,8 @@ html {
 }
 
 body {
-  color: #414042;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: #000;
+  font-family: Arial, sans-serif;
   line-height: 1.5;
   margin: 1em;
   padding: 0;
@@ -37,21 +37,29 @@ body {
 }
 
 a:link {
+  color: #3283b7;
   text-decoration: underline;
-  text-decoration-color: #1F6B9C;
+}
+
+a[href] {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #1978D2;
 }
 
 a:hover {
+  color: #1978D2;
   text-decoration: none;
 }
 
 blockquote {
-  border-left: 4px solid #bbbbbb;
+  border-left: 4px solid #bbb;
   padding: .15em 0 .15em 1.5em;
   margin: 1.25rem 0 1.5rem;
 }
 
 blockquote :last-child {
+  font-family: Georgia, serif;
   font-style: italic;
   margin-bottom: 0;
 }
@@ -65,7 +73,7 @@ ul {
 }
 
 li {
-  margin-bottom: .5em;
+  margin-bottom: .25em;
 }
 
 strong {
