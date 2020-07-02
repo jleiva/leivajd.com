@@ -36,6 +36,15 @@ body {
   }
 }
 
+a:link {
+  text-decoration: underline;
+  text-decoration-color: #1F6B9C;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 blockquote {
   border-left: 4px solid #bbbbbb;
   padding: .15em 0 .15em 1.5em;
@@ -43,6 +52,7 @@ blockquote {
 }
 
 blockquote :last-child {
+  font-style: italic;
   margin-bottom: 0;
 }
 
@@ -69,16 +79,6 @@ ul {
 
 abbr[title] {
   text-decoration: none;
-}
-
-a {
-  border-bottom: 2px solid #1F6B9C;
-  color: #414042;
-  text-decoration: none;
-}
-
-a:hover {
-  border-bottom-color: #333;
 }
 
 h1 {

@@ -8,7 +8,8 @@
 
 .block h1,
 .block h2 {
-    font-size: 1.75em;
+    color: #000;
+    font-size: 1.25em;
     margin: 0;
 }
 
@@ -17,8 +18,21 @@
 }
 
 .intro {
+    color: #000;
     font-size: 1.75em;
+    font-weight: bold;
     margin-bottom: 0;
+}
+
+.intro a:link {
+    text-decoration-color: #1F6B9C;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+}
+
+.intro a:hover {
+    text-decoration: none;
 }
 
 .items {
