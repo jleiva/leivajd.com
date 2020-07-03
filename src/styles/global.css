@@ -110,13 +110,6 @@ header {
   margin-bottom: 1.5em;
 }
 
-footer {
-  border-top: 1px solid #bbb;
-  color: #7c7c7a;
-  font-size: .85em;
-  padding-top: 1.5em;
-}
-
 main {
   max-width: 45em;
 }

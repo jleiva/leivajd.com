@@ -3,9 +3,24 @@ import React from "react"
 
 import styles from "../styles/footer.module.css"
 
+const getHappyDay = () => {
+  const date = new Date()
+  const days = [
+    "Domingo",
+    "Lunes",
+    "Martes",
+    "Miércoles",
+    "Jueves",
+    "Viernes",
+    "Sábado",
+  ]
+
+  return `¡Feliz ${days[date.getDay()]}!`
+}
+
 const Footer = () => (
   <footer>
-    <small>
+    <p className={styles.copy}>
       Desarrollo y contenido por Jos&eacute; David Leiva{" "}
       <span className={styles.date}>
         2012 - {new Date().getFullYear()} /{" "}
@@ -13,7 +28,9 @@ const Footer = () => (
           <strong>RSS</strong>
         </Link>
       </span>
-    </small>
+    </p>
+
+    <p className={styles.hey}>{getHappyDay()}</p>
   </footer>
 )
 
