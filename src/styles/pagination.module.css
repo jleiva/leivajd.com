@@ -1,5 +1,6 @@
 .pager {
     display: flex;
+    font-size: .875em;
     justify-content: space-between;
     list-style: none;
 }

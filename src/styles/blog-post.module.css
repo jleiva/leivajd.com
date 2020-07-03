@@ -1,11 +1,13 @@
 .metadata {
     color: #7c7c7a;
     font-size: .7125em;
-    margin: 1.5em 0 3em;
+    margin: .375em 0 3em;
 }
 
 .post {
+    font-size: .85em;
     margin-bottom: 3em;
+    max-width: 800px;
 }
 
 .postTitle {

@@ -101,6 +101,11 @@ h2 {
   position: relative;
 }
 
+h3 {
+  font-size: 1em;
+  margin-bottom: .5em
+}
+
 header {
   margin-bottom: 1.5em;
 }
