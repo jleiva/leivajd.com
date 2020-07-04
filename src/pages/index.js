@@ -22,18 +22,18 @@ export default ({ data }) => {
 
         <ul className={styles.items}>
           <li>
-            <a href="https://twitter.com/leivajd">@leivajd</a>
+            <a href="https://twitter.com/leivajd" rel="me">@leivajd</a>
           </li>
           <li>
-            <a href="https://github.com/jleiva">https://github.com/jleiva</a>
+            <a href="https://github.com/jleiva" rel="me">https://github.com/jleiva</a>
           </li>
           <li>
-            <a href="https://www.drupal.org/user/634642">
+            <a href="https://www.drupal.org/user/634642" rel="me">
               drupal.org/user/634642
             </a>
           </li>
           <li>
-            <a href="https://cr.linkedin.com/in/leivajd">
+            <a href="https://cr.linkedin.com/in/leivajd" rel="me">
               https://cr.linkedin.com/in/leivajd
             </a>
           </li>
