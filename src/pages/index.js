@@ -9,36 +9,52 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Inicio" />
-      <aside className={styles.block}>
+      <aside className={`${styles.block} h-card`}>
         <p className={styles.intro}>
-          ¡Hey! Esta es la casa <em>online</em> de{" "}
-          <Link to="/work">Jos&eacute; Leiva</Link>, un web designer que vive en
-          San Jos&eacute;, Costa Rica.
+          ¡Hey!{" "}
+          <a href="https://leivajd.com/" className="u-url u-uid">
+            Esta
+          </a>{" "}
+          es la casa <em>online</em> de{" "}
+          <span className="p-name">Jos&eacute; Leiva</span>, un{" "}
+          <span className="p-job-title">web designer</span> que vive en{" "}
+          <span className="p-region">San Jos&eacute;</span>,{" "}
+          <span className="p-country-name">Costa Rica</span>.
         </p>
-      </aside>
 
-      <div className={styles.block}>
         <h2>En otras partes</h2>
 
         <ul className={styles.items}>
           <li>
-            <a href="https://twitter.com/leivajd" rel="me">@leivajd</a>
+            <a href="https://twitter.com/leivajd" className="u-url" rel="me">
+              @leivajd
+            </a>
           </li>
           <li>
-            <a href="https://github.com/jleiva" rel="me">https://github.com/jleiva</a>
+            <a href="https://github.com/jleiva" className="u-url" rel="me">
+              https://github.com/jleiva
+            </a>
           </li>
           <li>
-            <a href="https://www.drupal.org/user/634642" rel="me">
+            <a
+              href="https://www.drupal.org/user/634642"
+              className="u-url"
+              rel="me"
+            >
               drupal.org/user/634642
             </a>
           </li>
           <li>
-            <a href="https://cr.linkedin.com/in/leivajd" rel="me">
+            <a
+              href="https://cr.linkedin.com/in/leivajd"
+              className="u-url"
+              rel="me"
+            >
               https://cr.linkedin.com/in/leivajd
             </a>
           </li>
         </ul>
-      </div>
+      </aside>
 
       <div className={styles.block}>
         <h2>
