@@ -53,6 +53,15 @@ export default ({ data }) => {
               https://cr.linkedin.com/in/leivajd
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.instagram.com/leivajd/"
+              className="u-url"
+              rel="me"
+            >
+              https://www.instagram.com/leivajd/
+            </a>
+          </li>
         </ul>
       </aside>
 
