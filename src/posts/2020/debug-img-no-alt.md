@@ -4,10 +4,10 @@ date: "2020-06-21"
 title: "Debug images without alt attribute with CSS"
 type: "recordar"
 externalUrl: "https://twitter.com/geoffreycrofte/status/1274652138854121474"
-tags: ["CSS", "A11y", "HTML", "Accesibilidad"]
+tags: ["CSS", "A11y", "HTML", "Accesibilidad", "TIL"]
 ---
 
-Pequeño tip, debuguear imagenes que no tienen el atributo `alt` usando CSS.
+TIL: Pequeño tip, debuguear imagenes que no tienen el atributo `alt` usando CSS.
 
 ```css
 img:not([alt]) {
