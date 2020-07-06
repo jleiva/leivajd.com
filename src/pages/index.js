@@ -65,34 +65,38 @@ export default ({ data }) => {
         </ul>
       </aside>
 
-      <div className={styles.block}>
-        <h2>
-          Del <Link to="/blog">blog</Link>
-        </h2>
-        <p>
-          Algunas notas y links que voy recopilando; te pod&eacute;s suscribir
-          al{" "}
-          <Link to="/rss.xml">
-            <strong>RSS feed</strong>
-          </Link>
-          .
-        </p>
-      </div>
-
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div className={styles.post} key={node.id}>
-          <h3 className={styles.postTitle}>
-            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-          </h3>
-          <div className={styles.metadata}>
-            <time className="dtPublished">{node.frontmatter.date}</time>
-          </div>
-          <div
-            className={styles.article}
-            dangerouslySetInnerHTML={{ __html: node.html }}
-          />
+      <div className="h-feed hfeed">
+        <div className={styles.block}>
+          <h2 className="p-name">
+            Del <Link to="/blog">blog</Link>
+          </h2>
+          <p className="p-summary">
+            Algunas notas y links que voy recopilando; te pod&eacute;s suscribir
+            al{" "}
+            <Link to="/rss.xml">
+              <strong>RSS feed</strong>
+            </Link>
+            .
+          </p>
         </div>
-      ))}
+
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div className={`h-entry hentry ${styles.post}`} key={node.id}>
+            <h3 className={`p-name ${styles.postTitle}`}>
+              <Link to={node.fields.slug} className="u-url" rel="bookmark">
+                {node.frontmatter.title}
+              </Link>
+            </h3>
+            <div className={styles.metadata}>
+              <time className="dt-published">{node.frontmatter.date}</time>
+            </div>
+            <div
+              className={`e-content ${styles.article}`}
+              dangerouslySetInnerHTML={{ __html: node.html }}
+            />
+          </div>
+        ))}
+      </div>
     </Layout>
   )
 }

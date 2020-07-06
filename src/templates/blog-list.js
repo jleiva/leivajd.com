@@ -23,9 +23,9 @@ export default ({ data, pageContext }) => {
         description="Notas sobre front-end de José Leiva, un web developer que vive en San José, Costa Rica."
       />
 
-      <div className={styles.block}>
-        <h1>Document your stuff</h1>
-        <p>
+      <div className={`h-feed hfeed ${styles.block}`}>
+        <h1 className="p-name">Document your stuff</h1>
+        <p className="p-summary">
           Me gusta pensar que este espacio es un reflejo{" "}
           <a href="https://indieweb.org/principles">del principio</a> de{" "}
           <a href="https://indieweb.org/">IndieWeb</a>; un espacio que me sirve
@@ -40,16 +40,18 @@ export default ({ data, pageContext }) => {
       </div>
 
       {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div className={styles.post} key={node.id}>
-          <h3 className={styles.postTitle}>
-            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+        <div className={`h-entry hentry ${styles.post}`} key={node.id}>
+          <h3 className={`p-name ${styles.postTitle}`}>
+            <Link to={node.fields.slug} className="u-url" rel="bookmark">
+              {node.frontmatter.title}
+            </Link>
           </h3>
           <div className={styles.metadata}>
-            <time className="dtPublished">{node.frontmatter.date}</time>
+            <time className="dt-published">{node.frontmatter.date}</time>
           </div>
 
           <div
-            className={styles.article}
+            className={`e-content ${styles.article}`}
             dangerouslySetInnerHTML={{ __html: node.html }}
           />
         </div>

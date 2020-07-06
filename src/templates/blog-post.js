@@ -15,21 +15,24 @@ export default function BlogPost({ data, pageContext }) {
   return (
     <Layout>
       <SEO title={postTitle} />
-      <h1 className={styles.postTitle}>{postTitle}</h1>
-      {/* ToDo: 
-        1. Missing attr datetime
-        2. Add itemprop to post
-      */}
-      <div className={styles.metadata}>
-        <time className="dtPublished">{post.frontmatter.date}</time>
-        <span className={styles.tags}>
-          {tags.length ? `Tags: ${tags.join(", ")}` : ""}
-        </span>
+      <div className="h-entry">
+        <h1 className={`p-name ${styles.postTitle}`}>{postTitle}</h1>
+        {/* ToDo: 
+          1. Missing attr datetime
+          2. Add itemprop to post
+        */}
+        <div className={styles.metadata}>
+          <time className="dt-published">{post.frontmatter.date}</time>
+          <span className={`p-category ${styles.tags}`}>
+            {tags.length ? `Tags: ${tags.join(", ")}` : ""}
+          </span>
+        </div>
+        <div
+          className={`e-content ${styles.post}`}
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
       </div>
-      <div
-        className={styles.post}
-        dangerouslySetInnerHTML={{ __html: post.html }}
-      />
+
       <Pagination>
         {previous && (
           <li>
