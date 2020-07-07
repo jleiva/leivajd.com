@@ -26,12 +26,13 @@ export default ({ data, pageContext }) => {
       <div className={`h-feed hfeed ${styles.block}`}>
         <h1 className="p-name">Document your stuff</h1>
         <p className="p-summary">
-          Me gusta pensar que este espacio es un reflejo{" "}
-          <a href="https://indieweb.org/principles">del principio</a> de{" "}
+          Este espacio es un reflejo{" "}
+          <a href="https://indieweb.org/principles">del principio</a>{" "}
+          <em>Document your stuff</em> de{" "}
           <a href="https://indieweb.org/">IndieWeb</a>; un espacio que me sirve
-          para documentar lo que voy aprendiendo. Aqu&iacute; vas a encontrar
-          notas sobre front-end, enfocado en HTML, CSS, accesibilidad, entre
-          otras cosas; te pod&eacute;s suscribir al{" "}
+          para documentar y darle seguimiento a lo que voy aprendiendo.
+          Aqu&iacute; vas a encontrar notas sobre front-end, enfocado en HTML,
+          CSS y accesibilidad, entre otras cosas; te pod&eacute;s suscribir al{" "}
           <Link to="/rss.xml">
             <strong>RSS feed</strong>
           </Link>

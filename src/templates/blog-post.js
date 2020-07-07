@@ -7,30 +7,44 @@ import SEO from "../components/seo"
 import styles from "../styles/blog-post.module.css"
 
 export default function BlogPost({ data, pageContext }) {
-  const post = data.markdownRemark
-  const tags = post.frontmatter.tags
   const { next, previous } = pageContext
-  const postTitle = post.frontmatter.title
+  const post = data.markdownRemark
+  const { title, postToTwitter, tags, tweet } = post.frontmatter
 
   return (
     <Layout>
-      <SEO description={post.excerpt} title={postTitle} />
-      <div className="h-entry">
-        <h1 className={`p-name ${styles.postTitle}`}>{postTitle}</h1>
+      <SEO description={post.excerpt} title={title} />
+      <div className={`h-entry ${styles.postWrap}`}>
+        <h1 className={`p-name ${styles.postTitle}`}>{title}</h1>
         {/* ToDo: 
           1. Missing attr datetime
           2. Add itemprop to post
         */}
         <div className={styles.metadata}>
           <time className="dt-published">{post.frontmatter.date}</time>
-          <span className={`p-category ${styles.tags}`}>
-            {tags.length ? `Tags: ${tags.join(", ")}` : ""}
-          </span>
         </div>
         <div
           className={`e-content ${styles.post}`}
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+
+        <div className={styles.syncWrap}>
+          <p className={`p-category ${styles.meta}`}>
+            {tags.length ? `Tags ${tags.join(", ")}` : ""}
+          </p>
+          {tweet && (
+            <p className={styles.meta}>
+              Tambi&eacute;n en <a href={tweet}>Twitter</a>
+            </p>
+          )}
+        </div>
+
+        {/* Used to publish content to Twitter using https://brid.gy */}
+        {postToTwitter && (
+          <a href="https://brid.gy/publish/twitter" className={styles.hide}>
+            brid.gy Post to Twitter
+          </a>
+        )}
       </div>
 
       <Pagination>
@@ -61,6 +75,8 @@ export const query = graphql`
         date(formatString: "DD-MM-YYYY")
         title
         tags
+        postToTwitter
+        tweet
       }
       excerpt
     }

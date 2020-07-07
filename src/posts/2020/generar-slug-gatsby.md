@@ -3,6 +3,7 @@ path: "/generar-slug-gatsby"
 date: "2020-05-24"
 title: "Generar slug en Gatsby"
 type: "nota"
+postToTwitter: true
 tags: ["JAMstack", "Web"]
 ---
 

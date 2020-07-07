@@ -1,3 +1,12 @@
+.hide {
+    display: none;
+}
+
+.meta {
+    margin: 0;
+    text-align: right;
+}
+
 .metadata {
     color: #7c7c7a;
     font-size: .7125em;
@@ -6,7 +15,6 @@
 
 .post {
     font-size: .85em;
-    margin-bottom: 3em;
     max-width: 800px;
 }
 
@@ -14,13 +22,15 @@
     margin-bottom: 0;
 }
 
-.tags {
-    margin: 0 .5em;
+.postWrap {
+    margin-bottom: 3em;;
 }
 
-.tags:before {
-    display: inline-block;
-    content: '/';
-    font-weight: bold;
-    margin-right: .5em;
+.syncWrap {
+    border-bottom: double;
+    border-top: double;
+    font-size: .7125em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 }
+
