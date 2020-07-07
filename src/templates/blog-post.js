@@ -34,7 +34,7 @@ export default function BlogPost({ data, pageContext }) {
           </p>
           {tweet && (
             <p className={styles.meta}>
-              Tambi&eacute;n en <a href={tweet}>Twitter</a>
+              Tambi&eacute;n en <a href={tweet} className="u-syndication">Twitter</a>
             </p>
           )}
         </div>
