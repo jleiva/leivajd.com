@@ -14,7 +14,7 @@ export default function BlogPost({ data, pageContext }) {
 
   return (
     <Layout>
-      <SEO title={postTitle} />
+      <SEO description={post.excerpt} title={postTitle} />
       <div className="h-entry">
         <h1 className={`p-name ${styles.postTitle}`}>{postTitle}</h1>
         {/* ToDo: 
@@ -62,6 +62,7 @@ export const query = graphql`
         title
         tags
       }
+      excerpt
     }
   }
 `
