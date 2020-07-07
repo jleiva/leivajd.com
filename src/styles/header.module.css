@@ -5,12 +5,16 @@
 }
 
 .logo {
-    border: 0;
-    font-weight: bold;
+  animation: rainbow 30s ease infinite;
+  font-weight: bold;
+  letter-spacing: -.015em;
+  -webkit-background-clip: text;
 }
 
 .logo:hover {
-  color: #1978D2;
+  background-image: repeating-linear-gradient(45deg,#0880f2,#1978D2,green,orange,red,#0880f2,#1978D2,green,orange,red);
+  background-size: 800% 800%;
+  color: transparent;
 }
 
 .list {
@@ -22,3 +26,15 @@
     display: inline-block;
     margin-right: 1vw;
   }
+
+ @keyframes rainbow {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 25%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+ } 
