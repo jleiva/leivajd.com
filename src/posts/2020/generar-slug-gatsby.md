@@ -5,6 +5,7 @@ title: "Generar slug en Gatsby"
 type: "nota"
 postToTwitter: true
 tags: ["JAMstack", "Web"]
+tweet: "https://twitter.com/leivajd/status/1280563498167271426"
 ---
 
 Hasta hace unos d&iacute;as, este sitio web corr&iacute;a sobre Drupal, por diferentes razones lo migre a Gatsby y lo mov&iacute; de un servicio de hosting a Vercel, la experiencia ha sido muy buena, m&aacute;s que todo porque me ha permitido aprender.
