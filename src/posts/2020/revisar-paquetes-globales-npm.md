@@ -1,11 +1,10 @@
 ---
-path: "/revisar-paquetes-globales-npm"
+path: "/paquetes-globales-npm"
 date: "2020-07-08"
 title: "Revisar paquetes globales de npm"
 type: "recordar"
 externalUrl: "https://medium.com/better-programming/how-to-check-your-globally-installed-npm-packages-32a14469b95a"
 tags: ["HTML", "Web", "TIL"]
-postToTwitter: true
 tweet: ""
 ---
 
