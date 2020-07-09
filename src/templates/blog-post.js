@@ -9,7 +9,7 @@ import styles from "../styles/blog-post.module.css"
 export default function BlogPost({ data, pageContext }) {
   const { next, previous } = pageContext
   const post = data.markdownRemark
-  const { title, postToTwitter, tags, tweet } = post.frontmatter
+  const { title, tags, tweet } = post.frontmatter
 
   return (
     <Layout>
@@ -78,7 +78,6 @@ export const query = graphql`
         date(formatString: "DD-MM-YYYY")
         title
         tags
-        postToTwitter
         tweet
       }
       excerpt
