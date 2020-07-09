@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import styles from "../styles/home.module.css"
+import headshot from "../images/headshot.jpg"
 
 export default ({ data }) => {
   return (
@@ -11,6 +12,8 @@ export default ({ data }) => {
       <SEO title="Inicio" />
       <aside className={`${styles.block} h-card`}>
         <p className={styles.intro}>
+        {/* TODO add srcset and size attr */}
+          <img src={headshot} className={`u-photo ${styles.headshot}`} alt="" />
           ¡Hey!{" "}
           <a href="https://leivajd.com/" className="u-url u-uid">
             Esta
@@ -19,7 +22,14 @@ export default ({ data }) => {
           <span className="p-name">Jos&eacute; Leiva</span>, un{" "}
           <span className="p-job-title">web designer</span> que vive en{" "}
           <span className="p-region">San Jos&eacute;</span>,{" "}
-          <span className="p-country-name">Costa Rica</span>.
+          <span className="p-country-name">Costa Rica</span>. <span className="p-note">Actualmente
+          trabajo para <a href="https://www.backcountry.com/">Backcountry.com</a> como full snack developer y colaboro con
+          el <abbr title="Centro de Tecnología y Artes Visuales">CETAV</abbr> como
+          coordinador de la{" "}
+          <a href="http://parquelalibertad.org/cetav/carreras/diseno-desarrollo-web">
+            carrera de Diseño y Desarrollo Web
+          </a>
+          . Me gusta cocinar, leer y escuchar podcasts.</span>
         </p>
 
         <h2>En otras partes</h2>
@@ -79,7 +89,6 @@ export default ({ data }) => {
             .
           </p>
         </div>
-
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div className={`h-entry hentry ${styles.post}`} key={node.id}>
             <h3 className={`p-name ${styles.postTitle}`}>
@@ -96,6 +105,17 @@ export default ({ data }) => {
             />
           </div>
         ))}
+        
+        <div className={styles.ring}>
+        <a href="https://xn--sr8hvo.ws/%F0%9F%98%9C%F0%9F%8F%AE%F0%9F%92%86/previous">
+          ←
+        </a>
+        <small>An IndieWeb Webring 🕸💍</small>
+        <a href="https://xn--sr8hvo.ws/%F0%9F%98%9C%F0%9F%8F%AE%F0%9F%92%86/next">
+          →
+        </a>
+        </div>
+
       </div>
     </Layout>
   )

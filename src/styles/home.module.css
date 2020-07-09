@@ -12,11 +12,19 @@
     margin: 0;
 }
 
+.headshot {
+    max-width: 20%;
+    border-radius: 50%;
+    shape-outside: circle();
+    float: left;
+    margin-right: 3em;
+    border: 0.2em solid rgba(5,0,5,0.25);
+}
+
 .intro {
     color: #000;
-    font-size: 1.75em;
-    font-weight: bold;
-    margin-bottom: 3em;
+    font-size: 1.25em;
+    margin: 3em 0;
 }
 
 .intro a:link {
@@ -46,4 +54,12 @@
     font-size: 1em;
     margin-bottom: 0;
     margin-top: 0;
+}
+
+.ring {
+    margin: 1.5em auto;
+}
+
+.ring small {
+    padding: 0 .5em;
 }
