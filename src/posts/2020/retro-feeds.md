@@ -5,7 +5,6 @@ title: "Retro Feeds"
 type: "recordar"
 externalUrl: "https://adactio.com/journal/17095"
 tags: ["HTML", "Web", "IndieWeb"]
-postToTwitter: true
 tweet: "https://twitter.com/leivajd/status/1280298693594398723"
 ---
 

@@ -5,7 +5,7 @@ title: "Revisar paquetes globales de npm"
 type: "recordar"
 externalUrl: "https://medium.com/better-programming/how-to-check-your-globally-installed-npm-packages-32a14469b95a"
 tags: ["HTML", "Web", "TIL"]
-tweet: ""
+tweet: "https://twitter.com/leivajd/status/1281055413945974786"
 ---
 
 **#TIL** como listar todos los paquetes de [npm](https://www.npmjs.com/) instalados de manera global.

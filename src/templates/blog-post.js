@@ -43,11 +43,11 @@ export default function BlogPost({ data, pageContext }) {
         </div>
 
         {/* Used to publish content to Twitter using https://brid.gy */}
-        {postToTwitter && (
+        {/* {postToTwitter && (
           <a href="https://brid.gy/publish/twitter" className={styles.hide}>
             brid.gy Post to Twitter
           </a>
-        )}
+        )} */}
       </div>
 
       <Pagination>
