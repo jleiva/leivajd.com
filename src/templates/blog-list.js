@@ -40,6 +40,7 @@ export default ({ data, pageContext }) => {
         </p>
       </div>
 
+      <div className={styles.feedWrap}>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div className={`h-entry hentry ${styles.post}`} key={node.id}>
           <h3 className={`p-name ${styles.postTitle}`}>
@@ -57,6 +58,7 @@ export default ({ data, pageContext }) => {
           />
         </div>
       ))}
+      </div>
 
       <Pagination>
         {!isFirst && (

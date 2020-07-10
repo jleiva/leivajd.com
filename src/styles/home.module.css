@@ -12,6 +12,10 @@
     margin: 0;
 }
 
+.feedWrap {
+    max-width: 800px;
+}
+
 .headshot {
     max-width: 20%;
     border-radius: 50%;

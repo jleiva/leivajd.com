@@ -27,7 +27,9 @@ export default ({ data }) => {
             Actualmente trabajo para{" "}
             <a href="https://www.backcountry.com/">Backcountry.com</a> como full
             snack developer y colaboro con el{" "}
+            <a href="http://parquelalibertad.org/cetav">
             <abbr title="Centro de Tecnología y Artes Visuales">CETAV</abbr>{" "}
+            </a>
             como coordinador de la{" "}
             <a href="http://parquelalibertad.org/cetav/carreras/diseno-desarrollo-web">
               carrera de Diseño y Desarrollo Web
@@ -79,7 +81,7 @@ export default ({ data }) => {
         </ul>
       </aside>
 
-      <div className="h-feed hfeed">
+      <div className={`h-feed hfeed ${styles.feedWrap}`}>
         <div className={styles.block}>
           <h2 className="p-name">
             Del <Link to="/blog">blog</Link>
