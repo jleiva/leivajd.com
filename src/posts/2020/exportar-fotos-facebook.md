@@ -5,7 +5,7 @@ title: "How to transfer all of your Facebook photos and videos to Google Photos"
 type: "recordar"
 externalUrl: "https://www.androidpolice.com/2020/05/16/how-to-transfer-all-of-your-facebook-photos-and-videos-to-google-photos/"
 tags: ["TIL", "IndieWeb", "Web"]
-tweet: ""
+tweet: "https://twitter.com/leivajd/status/1281446224936214528"
 ---
 
 _#TIL_ Como transferir todas las foto y videos de Facebook a Google Photos; [en el articulo esta detallado](https://www.androidpolice.com/2020/05/16/how-to-transfer-all-of-your-facebook-photos-and-videos-to-google-photos/), pero a alto nivel es algo como esto:
