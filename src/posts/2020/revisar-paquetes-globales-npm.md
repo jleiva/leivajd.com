@@ -4,7 +4,7 @@ date: "2020-07-08"
 title: "Revisar paquetes globales de npm"
 type: "recordar"
 externalUrl: "https://medium.com/better-programming/how-to-check-your-globally-installed-npm-packages-32a14469b95a"
-tags: ["HTML", "Web", "TIL"]
+tags: ["TIL", "npm"]
 tweet: "https://twitter.com/leivajd/status/1281055413945974786"
 ---
 
