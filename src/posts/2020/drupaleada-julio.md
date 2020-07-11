@@ -4,6 +4,7 @@ date: "2020-07-11"
 title: "Drupaleada Julio, Drupal 9 y headless"
 type: "nota"
 tags: ["JAMstack", "DrupalCR", "Comunidad", "Gatsby"]
+tweet: "https://twitter.com/leivajd/status/1282017034570694657"
 ---
 
 El pasado 9 de Julio se realiz&oacute; el meetup del mes, [el video esta disponible](https://youtu.be/oVzqTdqSPR0?t=571) en el canal de [Youtube DrupalCampCostaRica](https://www.youtube.com/c/DrupalCampCostaRica).
