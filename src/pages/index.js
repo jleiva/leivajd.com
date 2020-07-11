@@ -28,7 +28,7 @@ export default ({ data }) => {
             <a href="https://www.backcountry.com/">Backcountry.com</a> como full
             snack developer y colaboro con el{" "}
             <a href="http://parquelalibertad.org/cetav">
-            <abbr title="Centro de Tecnología y Artes Visuales">CETAV</abbr>{" "}
+              <abbr title="Centro de Tecnología y Artes Visuales">CETAV</abbr>{" "}
             </a>
             como coordinador de la{" "}
             <a href="http://parquelalibertad.org/cetav/carreras/diseno-desarrollo-web">

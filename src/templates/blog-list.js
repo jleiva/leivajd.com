@@ -41,23 +41,23 @@ export default ({ data, pageContext }) => {
       </div>
 
       <div className={styles.feedWrap}>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div className={`h-entry hentry ${styles.post}`} key={node.id}>
-          <h3 className={`p-name ${styles.postTitle}`}>
-            <Link to={node.fields.slug} className="u-url" rel="bookmark">
-              {node.frontmatter.title}
-            </Link>
-          </h3>
-          <div className={styles.metadata}>
-            <time className="dt-published">{node.frontmatter.date}</time>
-          </div>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div className={`h-entry hentry ${styles.post}`} key={node.id}>
+            <h3 className={`p-name ${styles.postTitle}`}>
+              <Link to={node.fields.slug} className="u-url" rel="bookmark">
+                {node.frontmatter.title}
+              </Link>
+            </h3>
+            <div className={styles.metadata}>
+              <time className="dt-published">{node.frontmatter.date}</time>
+            </div>
 
-          <div
-            className={`e-content ${styles.article}`}
-            dangerouslySetInnerHTML={{ __html: node.html }}
-          />
-        </div>
-      ))}
+            <div
+              className={`e-content ${styles.article}`}
+              dangerouslySetInnerHTML={{ __html: node.html }}
+            />
+          </div>
+        ))}
       </div>
 
       <Pagination>

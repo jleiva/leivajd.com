@@ -23,7 +23,8 @@ const Footer = () => (
     <p className={styles.copy}>
       Desarrollo y contenido por Jos&eacute; David Leiva{" "}
       <span className={styles.date}>
-        Si encontras un error, te agredezco el <a href="https://github.com/jleiva/leivajd.com/issues">reporte</a>.
+        Si encontras un error, te agredezco el{" "}
+        <a href="https://github.com/jleiva/leivajd.com/issues">reporte</a>.
       </span>
       <span className={styles.date}>
         2012 - {new Date().getFullYear()} /{" "}
