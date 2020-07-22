@@ -1,9 +1,22 @@
 .category {
-    color: #7c7c7a;
     font-size: .6em;
     font-weight: bold;
-    text-transform: uppercase;
+    position: relative;
+    text-transform: none;
+    z-index: 2;
 }
+
+.category:after {
+    background-color: rgb(247, 250, 19);
+    content: '';
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+  }
 
 .hide {
     display: none;

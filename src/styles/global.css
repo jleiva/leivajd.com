@@ -15,29 +15,30 @@ html {
 }
 
 body {
+  border-top: 4px solid #1c7cbb;
   color: #000;
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  margin: 1em;
-  padding: 0;
+  margin: 0;
+  padding: 1em;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
 @media screen and (min-width: 800px) {
   body {
-    margin: 3em;
+    padding: 3em;
   }
 }
 
 @media screen and (min-width: 1200px) {
   body {
-    margin: 4em;
+    padding: 4em;
   }
 }
 
 a:link {
-  color: #3283b7;
+  color: #1c7cbb;
   text-decoration: underline;
 }
 
