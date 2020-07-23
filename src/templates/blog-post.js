@@ -36,7 +36,7 @@ export default function BlogPost({ data, pageContext }) {
             </Link>
           </p>
           <p className={`p-category ${styles.meta}`}>
-            {tags.length ? `Tags ${tags.join(", ")}` : ""}
+            {tags && tags.length ? `Tags ${tags.join(", ")}` : ""}
 
             {tweet && (
               <span className={styles.sync}>
