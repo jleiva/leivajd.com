@@ -29,8 +29,7 @@ export default function BlogPost({ data, pageContext }) {
         <div className={styles.syncWrap}>
           <p>
             Publicado el{" "}
-            <time className="dt-published">{post.frontmatter.date}</time>
-            {" "}por{" "}
+            <time className="dt-published">{post.frontmatter.date}</time> por{" "}
             <Link className="p-author h-card" to="/">
               Jos&eacute; Leiva
             </Link>
