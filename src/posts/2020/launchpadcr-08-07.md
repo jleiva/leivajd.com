@@ -2,6 +2,7 @@
 path: "/launchpadcr-08-07"
 date: "2020-08-07"
 type: "note"
+tweet: "https://twitter.com/leivajd/status/1291777521059414016"
 ---
 
 [launchpadcr.com](https://launchpadcr.com/) suena como una buena iniciativa; un programa técnico, que busca _proveer a estudiantes costarricenses de último año de colegio tutorías, herramientas y habilidades_ y que les sirva como punto de partida para desarrollar una carrera en desarrollo de software y tecnología.
