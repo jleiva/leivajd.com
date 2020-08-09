@@ -47,7 +47,7 @@
 }
 
 .post {
-    margin-bottom: 4em;
+    margin-bottom: 6em;
 }
 
 .post p {
@@ -66,4 +66,8 @@
 
 .ring small {
     padding: 0 .5em;
+}
+
+.note {
+    margin-bottom: 4em;
 }

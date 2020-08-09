@@ -81,7 +81,7 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date(formatString: "DD-MM-YYYY")
+        date
         title
         tags
         tweet

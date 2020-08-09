@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import PostNote from "../components/post-note"
 
 import styles from "../styles/home.module.css"
 import headshot from "../images/headshot.jpg"
@@ -95,22 +96,41 @@ export default ({ data }) => {
             .
           </p>
         </div>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div className={`h-entry hentry ${styles.post}`} key={node.id}>
-            <h3 className={`p-name ${styles.postTitle}`}>
-              <Link to={node.fields.slug} className="u-url" rel="bookmark">
-                {node.frontmatter.title}
-              </Link>
-            </h3>
-            <div className={styles.metadata}>
-              <time className="dt-published">{node.frontmatter.date}</time>
-            </div>
+        {data.allMarkdownRemark.edges.map(({ node }) => {
+          const isNote = node.frontmatter.type === "note"
+
+          return (
             <div
-              className={`e-content ${styles.article}`}
-              dangerouslySetInnerHTML={{ __html: node.html }}
-            />
-          </div>
-        ))}
+              className={`h-entry hentry ${isNote ? styles.note : styles.post}`}
+              key={node.id}
+            >
+              {isNote ? (
+                <PostNote key={node.id} {...node} />
+              ) : (
+                <>
+                  <h3 className={`p-name ${styles.postTitle}`}>
+                    <Link
+                      to={node.fields.slug}
+                      className="u-url"
+                      rel="bookmark"
+                    >
+                      {node.frontmatter.title}
+                    </Link>
+                  </h3>
+                  <div className={styles.metadata}>
+                    <time className="dt-published">
+                      {node.frontmatter.date}
+                    </time>
+                  </div>
+                  <div
+                    className={`e-content ${styles.article}`}
+                    dangerouslySetInnerHTML={{ __html: node.html }}
+                  />
+                </>
+              )}
+            </div>
+          )
+        })}
 
         <div className={styles.ring}>
           <a href="https://xn--sr8hvo.ws/%F0%9F%98%9C%F0%9F%8F%AE%F0%9F%92%86/previous">
@@ -137,9 +157,11 @@ export const query = graphql`
           id
           html
           frontmatter {
-            date(formatString: "DD-MM-YYYY")
+            date
             path
             title
+            type
+            tweet
           }
           fields {
             slug

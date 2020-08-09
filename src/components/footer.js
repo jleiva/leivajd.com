@@ -19,7 +19,7 @@ const getHappyDay = () => {
 }
 
 const Footer = () => (
-  <footer>
+  <footer className={styles.wrap}>
     <p className={styles.copy}>
       Desarrollo y contenido por Jos&eacute; David Leiva{" "}
       <span className={styles.date}>
