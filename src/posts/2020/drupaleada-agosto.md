@@ -4,6 +4,7 @@ date: "2020-08-05"
 title: "Drupaleada Agosto"
 type: "nota"
 tags: ["JAMstack", "DrupalCR", "Comunidad", "Gatsby"]
+tweet: "https://twitter.com/leivajd/status/1292265444188061698"
 ---
 
 Hoy se realiz&oacute; la Drupaleada de Agosto, lo dividimos en tres bloques:
