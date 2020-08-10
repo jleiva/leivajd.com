@@ -4,7 +4,7 @@ date: "2020-07-09"
 title: "How to transfer all of your Facebook photos and videos to Google Photos"
 type: "recordar"
 externalUrl: "https://www.androidpolice.com/2020/05/16/how-to-transfer-all-of-your-facebook-photos-and-videos-to-google-photos/"
-tags: ["TIL", "IndieWeb", "Web"]
+tags: ["TIL", "IndieWeb", "Web", "Facebook"]
 tweet: "https://twitter.com/leivajd/status/1281446224936214528"
 ---
 

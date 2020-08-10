@@ -10,6 +10,16 @@ export default function BlogPost({ data, pageContext }) {
   const { next, previous } = pageContext
   const post = data.markdownRemark
   const { title, tags, tweet, type } = post.frontmatter
+  const TagList = ({ tags }) => {
+    const hasTags = tags && tags.length > 0
+    const tagStr = hasTags ? tags.join(", ") : ""
+
+    return hasTags ? (
+      <span>
+        Tags: <span className="p-category">{tagStr}</span>
+      </span>
+    ) : null
+  }
 
   return (
     <Layout>
@@ -34,9 +44,8 @@ export default function BlogPost({ data, pageContext }) {
               Jos&eacute; Leiva
             </Link>
           </p>
-          <p className={`p-category ${styles.meta}`}>
-            {tags && tags.length ? `Tags ${tags.join(", ")}` : ""}
-
+          <p className={styles.meta}>
+            <TagList tags={tags} />
             {tweet && (
               <span className={styles.sync}>
                 Tambi&eacute;n en{" "}
