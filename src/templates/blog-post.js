@@ -27,10 +27,7 @@ export default function BlogPost({ data, pageContext }) {
       <div className={`h-entry ${styles.postWrap}`}>
         <span className={`p-category ${styles.category}`}>{type}</span>
         <h1 className={`p-name ${styles.postTitle}`}>{title}</h1>
-        {/* ToDo: 
-          1. Missing attr datetime
-          2. Add itemprop to post
-        */}
+        {/* ToDo: Check and validate microformats */}
         <div
           className={`e-content ${styles.post}`}
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -39,7 +36,10 @@ export default function BlogPost({ data, pageContext }) {
         <div className={styles.syncWrap}>
           <p>
             Publicado el{" "}
-            <time className="dt-published">{post.frontmatter.date}</time> por{" "}
+            <time className="dt-published" dateTime={post.frontmatter.date}>
+              {post.frontmatter.date}
+            </time>{" "}
+            por{" "}
             <Link className="p-author h-card" to="/">
               Jos&eacute; Leiva
             </Link>

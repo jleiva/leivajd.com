@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import Pagination from "../components/pagination"
 import SEO from "../components/seo"
+import PostLink from "../components/post-link"
 import PostNote from "../components/post-note"
 
 import styles from "../styles/home.module.css"
@@ -16,6 +17,38 @@ export default ({ data, pageContext }) => {
       ? "/blog"
       : `/blog/pagina/${(currentPage - 1).toString()}`
   const nextPage = `blog/pagina/${(currentPage + 1).toString()}`
+  // TODO: Cleanup, move to component
+  const handlePostComp = node => {
+    const postType = node.frontmatter.type
+
+    switch (postType) {
+      case "recordar":
+        return <PostLink {...node} />
+
+      case "note":
+        return <PostNote {...node} />
+
+      default:
+        return (
+          <>
+            <h3 className={`p-name ${styles.postTitle}`}>
+              <Link to={node.fields.slug} className="u-url" rel="bookmark">
+                {node.frontmatter.title}
+              </Link>
+            </h3>
+            <div className={styles.metadata}>
+              <time className="dt-published" dateTime={node.frontmatter.date}>
+                {node.frontmatter.date}
+              </time>
+            </div>
+            <div
+              className={`e-content ${styles.article}`}
+              dangerouslySetInnerHTML={{ __html: node.html }}
+            />
+          </>
+        )
+    }
+  }
 
   return (
     <Layout>
@@ -50,31 +83,7 @@ export default ({ data, pageContext }) => {
               className={`h-entry hentry ${isNote ? styles.note : styles.post}`}
               key={node.id}
             >
-              {isNote ? (
-                <PostNote key={node.id} {...node} />
-              ) : (
-                <>
-                  <h3 className={`p-name ${styles.postTitle}`}>
-                    <Link
-                      to={node.fields.slug}
-                      className="u-url"
-                      rel="bookmark"
-                    >
-                      {node.frontmatter.title}
-                    </Link>
-                  </h3>
-                  <div className={styles.metadata}>
-                    <time className="dt-published">
-                      {node.frontmatter.date}
-                    </time>
-                  </div>
-
-                  <div
-                    className={`e-content ${styles.article}`}
-                    dangerouslySetInnerHTML={{ __html: node.html }}
-                  />
-                </>
-              )}
+              {handlePostComp(node)}
             </div>
           )
         })}
@@ -114,6 +123,7 @@ export const query = graphql`
             title
             type
             tweet
+            externalUrl
           }
           fields {
             slug

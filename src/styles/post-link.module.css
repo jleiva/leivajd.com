@@ -1,0 +1,23 @@
+.content {
+    font-size: .8125em;
+}
+
+.external {
+    position: relative;
+}
+
+.external:after {
+    background: url(../images/external.svg) no-repeat;
+    content: '';
+    height: 25px;
+    position: absolute;
+    right: -30px;
+    top: 3px;
+    width: 25px;
+}
+
+.metadata {
+    color: #7c7c7a;
+    font-size: .7125em;
+    margin: .75em 0;
+}
