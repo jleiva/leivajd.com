@@ -16,4 +16,4 @@ Si no se tiene el <abbr title="Simple Hashing Algorithm">SHA</abbr> se puede hac
 
 `git reflog --no-abbrev`
 
-Esto retorna el log de referencia completo, incluido el historico de commits para el branch que eliminamos; el SHA que nos interesa es el último commit del branch que nos interesa.
+Esto retorna el log de referencia completo, incluido el historico de commits para el branch que eliminamos; el SHA que nos interesa es el último commit del branch que se quiere recuperar.
