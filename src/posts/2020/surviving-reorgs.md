@@ -7,7 +7,7 @@ externalUrl: "http://www.camilletalk.com/2016/4/24/surviving-reorgs"
 tags: ["Management", "Web"]
 ---
 
-> Successful Companes Change As needed
+> Successful Companies Change As needed
 
 Buena charla, [Reorgs Happen, Dealing Eleganty with Organizational Change](http://www.camilletalk.com/2016/4/24/surviving-reorgs) por Camille Fournier, la autora del libro The Manager's Path. Cae en buen momento, en Backcountry estamos teniendo nuevos C levels, nuevo manager, restructuración de equipos y nuevos roles.
 

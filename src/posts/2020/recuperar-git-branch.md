@@ -5,6 +5,7 @@ title: "Recuperar un Git branch eliminado"
 type: "recordar"
 externalUrl: "https://stackoverflow.com/questions/3640764/can-i-recover-a-branch-after-its-deletion-in-git"
 tags: ["Git", "TIL"]
+tweet: "https://twitter.com/leivajd/status/1303488282895020034"
 ---
 
 **TIL** como recuperar un branch local de Git que fue eliminado.
