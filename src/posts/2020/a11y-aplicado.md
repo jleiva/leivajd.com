@@ -4,6 +4,7 @@ date: "2020-09-17"
 title: "Accesibilidad web de la teoría a la práctica"
 type: "nota"
 tags: ["Web", "A11y", "Accesibilidad"]
+tweet: "https://twitter.com/leivajd/status/1306807376201342977"
 ---
 
 ## DrupalCR Meetup A11y
