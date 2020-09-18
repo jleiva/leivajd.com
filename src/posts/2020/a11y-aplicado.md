@@ -9,14 +9,14 @@ tweet: "https://twitter.com/leivajd/status/1306807376201342977"
 
 ## DrupalCR Meetup A11y
 
-Hoy tuvimos el [DrupalCR Meetup A11y](https://youtu.be/NCgFw3YW1IU) y participe con la charla **Accesibilidad web de la teoría a la práctica**, estas son algunas notas.
+Hoy tuvimos el [DrupalCR Meetup A11y](https://youtu.be/NCgFw3YW1IU) y participe con la charla **Accesibilidad web de la teoría a la práctica**, [el video ya esta disponible](https://youtu.be/NCgFw3YW1IU) y estas son algunas notas.
 
 ### ¿Sobre qué no vamos a hablar?
 
-- La norma, WCAG 2.1.
-- Principios.
+- La norma, [WCAG 2.1](https://www.w3.org/TR/WCAG21/).
+- Principios de accesibilidad.
 - Niveles de conformidad (A, AA, AAA).
-- WAI-ARIA.
+- [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.1/).
 
 Recomendada la [charla Implementando Accesibilidad](https://youtu.be/oR2kvW1TxXY) de [Carlos Murillo](https://twitter.com/zoncho), cubre varios de los puntos anteriores.
 
@@ -68,16 +68,15 @@ El [reporte de WebAIM One Million](https://webaim.org/projects/million/) fue la 
 
 Checklist que presenta recomendaciones para implementar los principios y técnicas de accesibilidad. El lenguaje utilizado aquí simplifica y condensa significativamente la especificación oficial WCAG 2.1 y los materiales de apoyo para facilitar su implementación y verificación.
 
-* [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist)
-* [The A11Y Project Checklist](https://a11yproject.com/checklist/)
-* [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/#main)
-
+- [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist)
+- [The A11Y Project Checklist](https://a11yproject.com/checklist/)
+- [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/#main)
 
 ### Sitios oficiales
-* [ADA Network](https://adata.org/)
-* [Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/)
-* [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
-* [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
-* [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
-* [Techniques for WCAG 2.0](https://www.w3.org/TR/WCAG20-TECHS/)
 
+- [ADA Network](https://adata.org/)
+- [Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/)
+- [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
+- [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
+- [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
+- [Techniques for WCAG 2.0](https://www.w3.org/TR/WCAG20-TECHS/)
