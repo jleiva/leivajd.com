@@ -56,7 +56,6 @@ El [reporte de WebAIM One Million](https://webaim.org/projects/million/) fue la 
 
 - [Slides de la charla](https://docs.google.com/presentation/d/1EvKi9ORbAwi-ih3L1SqKzqbnxTd1FFOPAxl5CcgXovc/edit?usp=sharing)
 - [Use Only One main on a Page](https://adrianroselli.com/2015/09/use-only-one-main-on-a-page.html)
-- [Creating valid and accessible links](https://www.a11yproject.com/posts/2019-02-15-creating-valid-and-accessible-links/)
 - [Links accesibles y válidos](https://leivajd.com/nota/links-accesibles)
 - [Adrian Roselli - Selfish Accessibility](https://youtu.be/-O5b529V96g)
 - [Creating Accessible SVGs](https://www.deque.com/blog/creating-accessible-svgs/)
