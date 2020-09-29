@@ -11,4 +11,4 @@ tags: ["Development", "npm", "TIL"]
 
 Se puede correr sin instalarlo:
 
-```npx npkill```
+`npx npkill`
