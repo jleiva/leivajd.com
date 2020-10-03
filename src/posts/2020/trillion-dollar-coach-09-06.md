@@ -5,4 +5,4 @@ type: "note"
 tags: ["Libros", "Audiobook"]
 ---
 
-Terminé [Trillion Dollar Coach](/trillion-dollar-coach-09-04), me recordó mucho [Radical Candor](https://www.radicalcandor.com/the-book/).
+Terminé [Trillion Dollar Coach](/note/trillion-dollar-coach-09-04), me recordó mucho [Radical Candor](https://www.radicalcandor.com/the-book/).
