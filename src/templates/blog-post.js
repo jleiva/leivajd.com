@@ -9,7 +9,7 @@ import styles from "../styles/blog-post.module.css"
 export default function BlogPost({ data, pageContext }) {
   const { next, previous } = pageContext
   const post = data.markdownRemark
-  const { title, tags, tweet, type } = post.frontmatter
+  const { title, tags, tweet, type, runLog } = post.frontmatter
   const TagList = ({ tags }) => {
     const hasTags = tags && tags.length > 0
     const tagStr = hasTags ? tags.join(", ") : ""
@@ -26,7 +26,14 @@ export default function BlogPost({ data, pageContext }) {
       <SEO description={post.excerpt} title={title} />
       <div className={`h-entry ${styles.postWrap}`}>
         <span className={`p-category ${styles.category}`}>{type}</span>
-        <h1 className={`p-name ${styles.postTitle}`}>{title}</h1>
+        {runLog && (
+          <span className={styles.sync}>
+            <a href={runLog} className="u-syndication">
+              {runLog}
+            </a>
+          </span>
+        )}
+        {title && <h1 className={`p-name ${styles.postTitle}`}>{title}</h1>}
         {/* ToDo: Check and validate microformats */}
         <div
           className={`e-content ${styles.post}`}
@@ -94,6 +101,7 @@ export const query = graphql`
         title
         tags
         tweet
+        runLog
         type
       }
       excerpt

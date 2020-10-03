@@ -173,6 +173,7 @@ export const query = graphql`
             title
             type
             tweet
+            runLog
             externalUrl
           }
           fields {

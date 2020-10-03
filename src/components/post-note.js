@@ -21,6 +21,11 @@ const PostNote = ({ fields, frontmatter, html }) => {
               </a>
             </span>
           )}
+          {frontmatter.runLog && (
+            <span className={styles.sync}>
+              / <a href={frontmatter.runLog}>Strava</a>
+            </span>
+          )}
         </p>
       </div>
       <div
