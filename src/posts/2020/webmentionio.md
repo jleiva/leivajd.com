@@ -2,6 +2,7 @@
 path: "/webmentionio"
 date: "2020-11-09"
 type: "recordar"
+title: "Automatically sending Webmentions from a static website"
 externalUrl: "https://jamesmead.org/blog/2020-10-13-sending-webmentions-from-a-static-website"
 tags: ["JAMstacl", "IndieWeb"]
 ---
