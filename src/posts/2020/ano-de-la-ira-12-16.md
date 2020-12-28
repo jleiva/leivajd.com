@@ -1,5 +1,4 @@
 ---
----
 path: "/ano-de-la-ira-12-16"
 date: "2020-12-16"
 type: "note"
