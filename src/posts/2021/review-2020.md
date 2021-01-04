@@ -18,6 +18,7 @@ A pesar de que 2020 fue un año complicado, no me puedo quejar, esperando con ga
 - Durante el año publique 71 veces: 38 links, 20 notas y 13 posts.
 - Cancele una deuda que venía pagando desde el 2006 ó 2007, malas decisiones que lo persiguen a uno por años.
 - Ahorre más que ningún otro año.
+- Termine el [52-week money challenge](/note/52-weeks-money-challenge-12-20).
 - Me moví al rol de Tech Lead.
 - Empecé a registrar los libros que voy leyendo/escuchando.
 - Logré llevar el [logbook por segundo año](/recordar/keeping-logbook).
@@ -33,7 +34,7 @@ A pesar de que 2020 fue un año complicado, no me puedo quejar, esperando con ga
 - Isaac se fue a Portland, nació un nuevo sobrino.
 - Se murió Harold y don Joaquin, asesinaron a Guayo; no se podía ir a ningún entierro.
 - Después de Julio empecé a ver a mis papás una vez al mes, a pesar de Covid :S
-- Me compre de regalo de navidad mi primera parrilla, la 
+- Me compre de regalo de navidad mi primera parrilla **nueva**, la 
 Original Kettle Premium Charcoal Grill 22".
-- Gracias a la receta de Matty hice muchos pancakes.
+- Gracias a la [receta de Matty](https://youtu.be/2iWUUcW08ac) hice muchos pancakes.
 - Después de ir a Plantet Hollywood reconfirme que no me gustan, y no disfruto, los hoteles grandes/todo incluido.
