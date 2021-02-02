@@ -34,7 +34,7 @@ A pesar de que 2020 fue un año complicado, no me puedo quejar, esperando con ga
 - Isaac se fue a Portland, nació un nuevo sobrino.
 - Se murió Harold y don Joaquin, asesinaron a Guayo; no se podía ir a ningún entierro.
 - Después de Julio empecé a ver a mis papás una vez al mes, a pesar de Covid :S
-- Me compre de regalo de navidad mi primera parrilla **nueva**, la 
-Original Kettle Premium Charcoal Grill 22".
+- Me compre de regalo de navidad mi primera parrilla **nueva**, la
+  Original Kettle Premium Charcoal Grill 22".
 - Gracias a la [receta de Matty](https://youtu.be/2iWUUcW08ac) hice muchos pancakes.
 - Después de ir a Plantet Hollywood reconfirme que no me gustan, y no disfruto, los hoteles grandes/todo incluido.
