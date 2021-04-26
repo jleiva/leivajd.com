@@ -7,7 +7,7 @@ tags: ["Libros", "Audiobook"]
 
 Termine el audiobook [The Culture Code: The Secrets of Highly Successful Groups](/note/the-culture-code-03-17).
 
-Se repiten muchos de los "casos" ó ejemplos de libros como Miltipliers ó Grit, de lo que mas me resono fue el tema de ser vulnerable, dos ejemplos:
+Se repiten muchos de los "casos" ó ejemplos de libros como Miltipliers ó Grit, de lo que más me resono fue el tema de ser vulnerable, dos ejemplos:
 
 Como lead/managers, tener una cultuta de open feedback es importante, pero se debe iniciar por uno:
 
