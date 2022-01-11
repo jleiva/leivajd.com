@@ -61,15 +61,7 @@ export default ({ data }) => {
           <span className="p-note">
             Actualmente trabajo para{" "}
             <a href="https://www.backcountry.com/">Backcountry.com</a> como full
-            snack developer y colaboro con el{" "}
-            <a href="http://parquelalibertad.org/cetav">
-              <abbr title="Centro de Tecnología y Artes Visuales">CETAV</abbr>{" "}
-            </a>
-            como coordinador de la{" "}
-            <a href="http://parquelalibertad.org/cetav/carreras/diseno-desarrollo-web">
-              carrera de Diseño y Desarrollo Web
-            </a>
-            . Me gusta cocinar, leer y escuchar podcasts.
+            snack developer. Me gusta cocinar, leer y escuchar podcasts.
           </span>
         </p>
 
