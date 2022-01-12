@@ -22,6 +22,7 @@ Estoy trabajando en un proyecto en el que hacer _prop drilling_ ya se esta salie
 Comparing Context and Redux
 
 - Context
+
   - Does not store or "manage" anything
   - Only works in React components
   - Passes down a single value, which could be anything (primitive, objects, classes, etc)
@@ -30,6 +31,7 @@ Comparing Context and Redux
   - Does show the current context value for both Provider and Consumer components in the React DevTools but does not show any history of how that value changed over time
   - Updates consuming components when the context value changes, but with no way to skip updates
   - Does not include any mechanism for side effects - it's purely for rendering components
+
 - React+Redux
 
   - Stores and manages a single value (which is typically an object)
