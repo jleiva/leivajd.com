@@ -26,9 +26,11 @@ Reverse interview, _entrevistar al entrevistador_, y ver si ellos son un fit par
 - How’s the engineering culture?
 - What’s the current tech stack?
 - Where is the engineering team located? It is fully remote?
-- How big is the team? 
+- How big is the team?
 - Do you have any concerns about my experience or skill set?
 - When was the last time you took time off? Whats the expectation when youre on vacations? expected that employees be checking emails, slack messages, etc. when OOO.
+
+Fuentes:
 
 - [Reverse interview](https://github.com/viraptor/reverse-interview)
 - [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
