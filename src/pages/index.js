@@ -60,7 +60,7 @@ export default ({ data }) => {
           <span className="p-country-name">Costa Rica</span>.{" "}
           <span className="p-note">
             Actualmente trabajo para{" "}
-            <a href="https://www.backcountry.com/">Backcountry.com</a> como full
+            <a href="https://sysdig.com/">Sysdig.com</a> como full
             snack developer. Me gusta cocinar, leer y escuchar podcasts.
           </span>
         </p>
